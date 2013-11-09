@@ -1,0 +1,4 @@
+INCLUDE(CollectSrcs)
+SET(entry_SUBDIRS )
+GET_SRCS(entry_SRCLISTS entry_SUBDIRS)
+

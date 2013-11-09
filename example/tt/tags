@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Base	tt.h	/^typedef Base1 Base;$/;"	t
+Base1	tt.h	/^struct Base1$/;"	s
+Base1::GetDouble	tt.h	/^    double GetDouble() { return mDoubleValue;}$/;"	f	struct:Base1	access:public	signature:()
+Base1::GetInt	tt.h	/^    int GetInt() { return mIntValue;}$/;"	f	struct:Base1	access:public	signature:()
+Base1::OnSerialized_	tt.h	/^    void OnSerialized_()$/;"	f	struct:Base1	access:public	signature:()
+Base1::SetDouble	tt.h	/^    void SetDouble(double v) { mDoubleValue = v;}$/;"	f	struct:Base1	access:public	signature:(double v)
+Base1::SetInt	tt.h	/^    void SetInt(int v) { mIntValue = v; }$/;"	f	struct:Base1	access:public	signature:(int v)
+Base1::mDoubleValue	tt.h	/^    double mDoubleValue;$/;"	m	struct:Base1	access:public
+Base1::mIntValue	tt.h	/^    int mIntValue;$/;"	m	struct:Base1	access:public
+Base2	tt.h	/^struct Base2$/;"	s
+Base2::mIntValue1	tt.h	/^    int mIntValue1;$/;"	m	struct:Base2	access:public
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Base1& obj)$/;"	f	namespace:Serialization	signature:(const ::Base1& obj)
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Base1&);$/;"	p	namespace:Serialization	file:	signature:(const ::Base1&)
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived& obj)$/;"	f	namespace:Serialization	signature:(const ::Derived& obj)
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived&);$/;"	p	namespace:Serialization	file:	signature:(const ::Derived&)
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(const ::Derived::Nest& obj)
+ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(const ::Derived::Nest&)
+DO_	tt.se.cpp	112;"	d	file:
+DO_	tt.se.cpp	228;"	d	file:
+DO_	tt.se.cpp	429;"	d	file:
+DO_	tt.se.cpp	507;"	d	file:
+DO_	tt.se.cpp	559;"	d	file:
+DO_	tt.se.cpp	60;"	d	file:
+Derived	tt.h	/^struct Derived:public Base,public Base2$/;"	s	inherits:Base,Base2
+Derived::GetDValue	tt.h	/^    double GetDValue() { return mDValue; }$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetNest	tt.h	/^    MyNest& GetNest() { return mNest; }$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetNestPtr	tt.h	/^    MyNest*& GetNestPtr() { return mNestPtr;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetString	tt.h	/^    std::string& GetString() { return mString; }$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetVecInt	tt.h	/^    std::vector<int>& GetVecInt() { return mVecInt;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetVecIntPtr	tt.h	/^    std::vector<int*>& GetVecIntPtr() { return mVecIntPtr;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetVecPtrInt	tt.h	/^    std::vector<int>*& GetVecPtrInt() { return mVecPtrInt;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::GetVecPtrIntPtr	tt.h	/^    std::vector<int*>* GetVecPtrIntPtr() { return mVecPtrIntPtr;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::MyNest	tt.h	/^    typedef Nest MyNest;$/;"	t	struct:Derived	access:public
+Derived::Nest	tt.h	/^    struct Nest$/;"	s	struct:Derived	access:public
+Derived::Nest::mDoubleValue	tt.h	/^        double mDoubleValue;$/;"	m	struct:Derived::Nest	access:public
+Derived::Nest::mIntValue	tt.h	/^        int mIntValue;$/;"	m	struct:Derived::Nest	access:public
+Derived::OnSerializing	tt.h	/^    void OnSerializing()$/;"	f	struct:Derived	access:public	signature:()
+Derived::PtrString	tt.h	/^    std::string*& PtrString() { return mPtrString;}$/;"	f	struct:Derived	access:public	signature:()
+Derived::SetDValue	tt.h	/^    void SetDValue(double d) { mDValue = d;}$/;"	f	struct:Derived	access:public	signature:(double d)
+Derived::mDValue	tt.h	/^    double mDValue;$/;"	m	struct:Derived	access:public
+Derived::mNest	tt.h	/^    MyNest mNest;$/;"	m	struct:Derived	access:public
+Derived::mNestPtr	tt.h	/^    MyNest* mNestPtr;$/;"	m	struct:Derived	access:public
+Derived::mPtrString	tt.h	/^    std::string *mPtrString;$/;"	m	struct:Derived	access:public
+Derived::mString	tt.h	/^    std::string mString;$/;"	m	struct:Derived	access:public
+Derived::mVecInt	tt.h	/^    std::vector<int> mVecInt;$/;"	m	struct:Derived	access:public
+Derived::mVecIntPtr	tt.h	/^    std::vector<int*> mVecIntPtr;$/;"	m	struct:Derived	access:public
+Derived::mVecPtrInt	tt.h	/^    std::vector<int>* mVecPtrInt;$/;"	m	struct:Derived	access:public
+Derived::mVecPtrIntPtr	tt.h	/^    std::vector<int*> *mVecPtrIntPtr;$/;"	m	struct:Derived	access:public
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Base1& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Base1& obj)
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Derived& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Derived& obj)
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Derived::Nest& obj)
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Base1&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Base1&)
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Derived&)
+DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Derived::Nest&)
+DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Base1&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Base1&)
+DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Derived&)
+DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Derived::Nest&)
+GetDValue	tt.h	/^    double GetDValue() { return mDValue; }$/;"	f	struct:Derived	access:public	signature:()
+GetDouble	tt.h	/^    double GetDouble() { return mDoubleValue;}$/;"	f	struct:Base1	access:public	signature:()
+GetInt	tt.h	/^    int GetInt() { return mIntValue;}$/;"	f	struct:Base1	access:public	signature:()
+GetNest	tt.h	/^    MyNest& GetNest() { return mNest; }$/;"	f	struct:Derived	access:public	signature:()
+GetNestPtr	tt.h	/^    MyNest*& GetNestPtr() { return mNestPtr;}$/;"	f	struct:Derived	access:public	signature:()
+GetString	tt.h	/^    std::string& GetString() { return mString; }$/;"	f	struct:Derived	access:public	signature:()
+GetVecInt	tt.h	/^    std::vector<int>& GetVecInt() { return mVecInt;}$/;"	f	struct:Derived	access:public	signature:()
+GetVecIntPtr	tt.h	/^    std::vector<int*>& GetVecIntPtr() { return mVecIntPtr;}$/;"	f	struct:Derived	access:public	signature:()
+GetVecPtrInt	tt.h	/^    std::vector<int>*& GetVecPtrInt() { return mVecPtrInt;}$/;"	f	struct:Derived	access:public	signature:()
+GetVecPtrIntPtr	tt.h	/^    std::vector<int*>* GetVecPtrIntPtr() { return mVecPtrIntPtr;}$/;"	f	struct:Derived	access:public	signature:()
+MyNest	tt.h	/^    typedef Nest MyNest;$/;"	t	struct:Derived	access:public
+Nest	tt.h	/^    struct Nest$/;"	s	struct:Derived	access:public
+OBJS	Makefile	/^OBJS=main.o tt.se.o$/;"	m
+OnSerialized_	tt.h	/^    void OnSerialized_()$/;"	f	struct:Base1	access:public	signature:()
+OnSerializing	tt.h	/^    void OnSerializing()$/;"	f	struct:Derived	access:public	signature:()
+PtrString	tt.h	/^    std::string*& PtrString() { return mPtrString;}$/;"	f	struct:Derived	access:public	signature:()
+Serialization	tt.se.cpp	/^namespace Serialization$/;"	n	file:
+Serialization	tt.se.h	/^namespace Serialization$/;"	n
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Base1& obj)$/;"	f	namespace:Serialization	signature:(const ::Base1& obj)
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Base1&);$/;"	p	namespace:Serialization	file:	signature:(const ::Base1&)
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived& obj)$/;"	f	namespace:Serialization	signature:(const ::Derived& obj)
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived&);$/;"	p	namespace:Serialization	file:	signature:(const ::Derived&)
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(const ::Derived::Nest& obj)
+Serialization::ByteSizeInternal	tt.se.cpp	/^    int ByteSizeInternal(const ::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(const ::Derived::Nest&)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Base1& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Base1& obj)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Derived& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Derived& obj)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(CodedInputStream& cis,::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(CodedInputStream& cis,::Derived::Nest& obj)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Base1&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Base1&)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Derived&)
+Serialization::DeserializeInternal	tt.se.cpp	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedInputStream&,::Derived::Nest&)
+Serialization::DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Base1&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Base1&)
+Serialization::DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Derived&)
+Serialization::DeserializeInternal	tt.se.h	/^    bool DeserializeInternal(io::CodedInputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(io::CodedInputStream&,::Derived::Nest&)
+Serialization::Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Base1&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Base1&obj)
+Serialization::Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Derived&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Derived&obj)
+Serialization::Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Derived::Nest&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Derived::Nest&obj)
+Serialization::Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8*,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(uint8*,::Derived&)
+Serialization::Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8*,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(uint8*,::Derived::Nest&)
+Serialization::Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Base1&);$/;"	p	namespace:Serialization	signature:(uint8*,::Base1&)
+Serialization::Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Derived&);$/;"	p	namespace:Serialization	signature:(uint8*,::Derived&)
+Serialization::Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(uint8*,::Derived::Nest&)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Base1& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Base1& obj)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Derived& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Derived& obj)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Derived::Nest& obj)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Base1&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Base1&)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Derived&)
+Serialization::Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Derived::Nest&)
+Serialization::Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Base1&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Base1&)
+Serialization::Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Derived&)
+Serialization::Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Derived::Nest&)
+Serialization::uint8	tt.se.h	/^    typedef uint8_t uint8;$/;"	t	namespace:Serialization
+Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Base1&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Base1&obj)
+Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Derived&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Derived&obj)
+Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8* target,::Derived::Nest&obj)$/;"	f	namespace:Serialization	signature:(uint8* target,::Derived::Nest&obj)
+Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8*,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(uint8*,::Derived&)
+Serialize2Array	tt.se.cpp	/^    uint8* Serialize2Array(uint8*,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(uint8*,::Derived::Nest&)
+Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Base1&);$/;"	p	namespace:Serialization	signature:(uint8*,::Base1&)
+Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Derived&);$/;"	p	namespace:Serialization	signature:(uint8*,::Derived&)
+Serialize2Array	tt.se.h	/^    uint8* Serialize2Array(uint8*,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(uint8*,::Derived::Nest&)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Base1& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Base1& obj)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Derived& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Derived& obj)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(CodedOutputStream& cos,::Derived::Nest& obj)$/;"	f	namespace:Serialization	signature:(CodedOutputStream& cos,::Derived::Nest& obj)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Base1&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Base1&)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Derived&)
+Serialize2CodedStream	tt.se.cpp	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	file:	signature:(io::CodedOutputStream&,::Derived::Nest&)
+Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Base1&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Base1&)
+Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Derived&)
+Serialize2CodedStream	tt.se.h	/^    bool Serialize2CodedStream(io::CodedOutputStream&,::Derived::Nest&);$/;"	p	namespace:Serialization	signature:(io::CodedOutputStream&,::Derived::Nest&)
+SetDValue	tt.h	/^    void SetDValue(double d) { mDValue = d;}$/;"	f	struct:Derived	access:public	signature:(double d)
+SetDouble	tt.h	/^    void SetDouble(double v) { mDoubleValue = v;}$/;"	f	struct:Base1	access:public	signature:(double v)
+SetInt	tt.h	/^    void SetInt(int v) { mIntValue = v; }$/;"	f	struct:Base1	access:public	signature:(int v)
+__TT_SE__H	tt.se.h	2;"	d
+mDValue	tt.h	/^    double mDValue;$/;"	m	struct:Derived	access:public
+mDoubleValue	tt.h	/^        double mDoubleValue;$/;"	m	struct:Derived::Nest	access:public
+mDoubleValue	tt.h	/^    double mDoubleValue;$/;"	m	struct:Base1	access:public
+mIntValue	tt.h	/^        int mIntValue;$/;"	m	struct:Derived::Nest	access:public
+mIntValue	tt.h	/^    int mIntValue;$/;"	m	struct:Base1	access:public
+mIntValue1	tt.h	/^    int mIntValue1;$/;"	m	struct:Base2	access:public
+mNest	tt.h	/^    MyNest mNest;$/;"	m	struct:Derived	access:public
+mNestPtr	tt.h	/^    MyNest* mNestPtr;$/;"	m	struct:Derived	access:public
+mPtrString	tt.h	/^    std::string *mPtrString;$/;"	m	struct:Derived	access:public
+mString	tt.h	/^    std::string mString;$/;"	m	struct:Derived	access:public
+mVecInt	tt.h	/^    std::vector<int> mVecInt;$/;"	m	struct:Derived	access:public
+mVecIntPtr	tt.h	/^    std::vector<int*> mVecIntPtr;$/;"	m	struct:Derived	access:public
+mVecPtrInt	tt.h	/^    std::vector<int>* mVecPtrInt;$/;"	m	struct:Derived	access:public
+mVecPtrIntPtr	tt.h	/^    std::vector<int*> *mVecPtrIntPtr;$/;"	m	struct:Derived	access:public
+main	main.cpp	/^int main(int argc,char** argv)$/;"	f	signature:(int argc,char** argv)
+private	tt.se.cpp	1;"	d	file:
+private	tt.se.cpp	571;"	d	file:
+uint8	tt.se.h	/^    typedef uint8_t uint8;$/;"	t	namespace:Serialization

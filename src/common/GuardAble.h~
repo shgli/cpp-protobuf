@@ -1,0 +1,19 @@
+#ifndef _GUARDABLE_H
+#define _GUARDABLE_H
+
+template<typename T>
+struct GuardAble
+{
+    GuardAble():mFlag(true){}
+    operator bool ()
+    {
+        bool prev = mFlag; 
+        mFlag = false; 
+        return prev;
+    }
+
+private:
+    bool mFlag;
+};
+#endif
+

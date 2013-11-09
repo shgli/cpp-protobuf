@@ -1,0 +1,1030 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Address	Person.pb.cc	/^Address::Address()$/;"	f	class:Address	signature:()
+Address	Person.pb.cc	/^Address::Address(const Address& from)$/;"	f	class:Address	signature:(const Address& from)
+Address	Person.pb.h	/^  Address();$/;"	p	class:Address	access:public	signature:()
+Address	Person.pb.h	/^  Address(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+Address	Person.pb.h	/^class Address : public ::google::protobuf::Message {$/;"	c	inherits:::google::protobuf::Message
+Address::Address	Person.pb.cc	/^Address::Address()$/;"	f	class:Address	signature:()
+Address::Address	Person.pb.cc	/^Address::Address(const Address& from)$/;"	f	class:Address	signature:(const Address& from)
+Address::Address	Person.pb.h	/^  Address();$/;"	p	class:Address	access:public	signature:()
+Address::Address	Person.pb.h	/^  Address(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+Address::ByteSize	Person.pb.cc	/^int Address::ByteSize() const {$/;"	f	class:Address	signature:() const
+Address::ByteSize	Person.pb.h	/^  int ByteSize() const;$/;"	p	class:Address	access:public	signature:() const
+Address::Clear	Person.pb.cc	/^void Address::Clear() {$/;"	f	class:Address	signature:()
+Address::Clear	Person.pb.h	/^  void Clear();$/;"	p	class:Address	access:public	signature:()
+Address::CopyFrom	Person.pb.cc	/^void Address::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Address	signature:(const ::google::protobuf::Message& from)
+Address::CopyFrom	Person.pb.cc	/^void Address::CopyFrom(const Address& from) {$/;"	f	class:Address	signature:(const Address& from)
+Address::CopyFrom	Person.pb.h	/^  void CopyFrom(const ::google::protobuf::Message& from);$/;"	p	class:Address	access:public	signature:(const ::google::protobuf::Message& from)
+Address::CopyFrom	Person.pb.h	/^  void CopyFrom(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+Address::GetCachedSize	Person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:Address	access:public	signature:() const
+Address::GetMetadata	Person.pb.cc	/^::google::protobuf::Metadata Address::GetMetadata() const {$/;"	f	class:Address	signature:() const
+Address::GetMetadata	Person.pb.h	/^  ::google::protobuf::Metadata GetMetadata() const;$/;"	p	class:Address	access:public	signature:() const
+Address::InitAsDefaultInstance	Person.pb.cc	/^void Address::InitAsDefaultInstance() {$/;"	f	class:Address	signature:()
+Address::InitAsDefaultInstance	Person.pb.h	/^  void InitAsDefaultInstance();$/;"	p	class:Address	access:private	signature:()
+Address::IsInitialized	Person.pb.cc	/^bool Address::IsInitialized() const {$/;"	f	class:Address	signature:() const
+Address::IsInitialized	Person.pb.h	/^  bool IsInitialized() const;$/;"	p	class:Address	access:public	signature:() const
+Address::MergeFrom	Person.pb.cc	/^void Address::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Address	signature:(const ::google::protobuf::Message& from)
+Address::MergeFrom	Person.pb.cc	/^void Address::MergeFrom(const Address& from) {$/;"	f	class:Address	signature:(const Address& from)
+Address::MergeFrom	Person.pb.h	/^  void MergeFrom(const ::google::protobuf::Message& from);$/;"	p	class:Address	access:public	signature:(const ::google::protobuf::Message& from)
+Address::MergeFrom	Person.pb.h	/^  void MergeFrom(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+Address::MergePartialFromCodedStream	Person.pb.cc	/^bool Address::MergePartialFromCodedStream($/;"	f	class:Address	signature:( ::google::protobuf::io::CodedInputStream* input)
+Address::MergePartialFromCodedStream	Person.pb.h	/^  bool MergePartialFromCodedStream($/;"	p	class:Address	access:public	signature:( ::google::protobuf::io::CodedInputStream* input)
+Address::New	Person.pb.cc	/^Address* Address::New() const {$/;"	f	class:Address	signature:() const
+Address::New	Person.pb.h	/^  Address* New() const;$/;"	p	class:Address	access:public	signature:() const
+Address::SerializeWithCachedSizes	Person.pb.cc	/^void Address::SerializeWithCachedSizes($/;"	f	class:Address	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+Address::SerializeWithCachedSizes	Person.pb.h	/^  void SerializeWithCachedSizes($/;"	p	class:Address	access:public	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+Address::SerializeWithCachedSizesToArray	Person.pb.cc	/^::google::protobuf::uint8* Address::SerializeWithCachedSizesToArray($/;"	f	class:Address	signature:( ::google::protobuf::uint8* target) const
+Address::SerializeWithCachedSizesToArray	Person.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;$/;"	p	class:Address	access:public	signature:(::google::protobuf::uint8* output) const
+Address::SetCachedSize	Person.pb.cc	/^void Address::SetCachedSize(int size) const {$/;"	f	class:Address	signature:(int size) const
+Address::SetCachedSize	Person.pb.h	/^  void SetCachedSize(int size) const;$/;"	p	class:Address	access:private	signature:(int size) const
+Address::SharedCtor	Person.pb.cc	/^void Address::SharedCtor() {$/;"	f	class:Address	signature:()
+Address::SharedCtor	Person.pb.h	/^  void SharedCtor();$/;"	p	class:Address	access:private	signature:()
+Address::SharedDtor	Person.pb.cc	/^void Address::SharedDtor() {$/;"	f	class:Address	signature:()
+Address::SharedDtor	Person.pb.h	/^  void SharedDtor();$/;"	p	class:Address	access:private	signature:()
+Address::Swap	Person.pb.cc	/^void Address::Swap(Address* other) {$/;"	f	class:Address	signature:(Address* other)
+Address::Swap	Person.pb.h	/^  void Swap(Address* other);$/;"	p	class:Address	access:public	signature:(Address* other)
+Address::_cached_size_	Person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:Address	access:private
+Address::_has_bits_	Person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[(2 + 31) \/ 32];$/;"	m	class:Address	access:private
+Address::_unknown_fields_	Person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:Address	access:private
+Address::clear_has_room	Person.pb.h	/^  inline void clear_has_room();$/;"	p	class:Address	access:private	signature:()
+Address::clear_has_room	Person.pb.h	/^inline void Address::clear_has_room() {$/;"	f	class:Address	signature:()
+Address::clear_has_streat	Person.pb.h	/^  inline void clear_has_streat();$/;"	p	class:Address	access:private	signature:()
+Address::clear_has_streat	Person.pb.h	/^inline void Address::clear_has_streat() {$/;"	f	class:Address	signature:()
+Address::clear_room	Person.pb.h	/^  inline void clear_room();$/;"	p	class:Address	access:public	signature:()
+Address::clear_room	Person.pb.h	/^inline void Address::clear_room() {$/;"	f	class:Address	signature:()
+Address::clear_streat	Person.pb.h	/^  inline void clear_streat();$/;"	p	class:Address	access:public	signature:()
+Address::clear_streat	Person.pb.h	/^inline void Address::clear_streat() {$/;"	f	class:Address	signature:()
+Address::default_instance	Person.pb.cc	/^const Address& Address::default_instance() {$/;"	f	class:Address	signature:()
+Address::default_instance	Person.pb.h	/^  static const Address& default_instance();$/;"	p	class:Address	access:public	signature:()
+Address::default_instance_	Person.pb.cc	/^Address* Address::default_instance_ = NULL;$/;"	m	class:Address	file:
+Address::default_instance_	Person.pb.h	/^  static Address* default_instance_;$/;"	m	class:Address	access:private
+Address::descriptor	Person.pb.cc	/^const ::google::protobuf::Descriptor* Address::descriptor() {$/;"	f	class:Address	signature:()
+Address::descriptor	Person.pb.h	/^  static const ::google::protobuf::Descriptor* descriptor();$/;"	p	class:Address	access:public	signature:()
+Address::has_room	Person.pb.h	/^  inline bool has_room() const;$/;"	p	class:Address	access:public	signature:() const
+Address::has_room	Person.pb.h	/^inline bool Address::has_room() const {$/;"	f	class:Address	signature:() const
+Address::has_streat	Person.pb.h	/^  inline bool has_streat() const;$/;"	p	class:Address	access:public	signature:() const
+Address::has_streat	Person.pb.h	/^inline bool Address::has_streat() const {$/;"	f	class:Address	signature:() const
+Address::kRoomFieldNumber	Person.pb.cc	/^const int Address::kRoomFieldNumber;$/;"	m	class:Address	file:
+Address::kRoomFieldNumber	Person.pb.h	/^  static const int kRoomFieldNumber = 2;$/;"	m	class:Address	access:public
+Address::kStreatFieldNumber	Person.pb.cc	/^const int Address::kStreatFieldNumber;$/;"	m	class:Address	file:
+Address::kStreatFieldNumber	Person.pb.h	/^  static const int kStreatFieldNumber = 1;$/;"	m	class:Address	access:public
+Address::mutable_room	Person.pb.h	/^  inline ::std::string* mutable_room();$/;"	p	class:Address	access:public	signature:()
+Address::mutable_room	Person.pb.h	/^inline ::std::string* Address::mutable_room() {$/;"	f	class:Address	signature:()
+Address::mutable_streat	Person.pb.h	/^  inline ::std::string* mutable_streat();$/;"	p	class:Address	access:public	signature:()
+Address::mutable_streat	Person.pb.h	/^inline ::std::string* Address::mutable_streat() {$/;"	f	class:Address	signature:()
+Address::mutable_unknown_fields	Person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:Address	access:public	signature:()
+Address::operator =	Person.pb.h	/^  inline Address& operator=(const Address& from) {$/;"	f	class:Address	access:public	signature:(const Address& from)
+Address::protobuf_AddDesc_Person_2eproto	Person.pb.h	/^  friend void  protobuf_AddDesc_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+Address::protobuf_AssignDesc_Person_2eproto	Person.pb.h	/^  friend void protobuf_AssignDesc_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+Address::protobuf_ShutdownFile_Person_2eproto	Person.pb.h	/^  friend void protobuf_ShutdownFile_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+Address::release_room	Person.pb.h	/^  inline ::std::string* release_room();$/;"	p	class:Address	access:public	signature:()
+Address::release_room	Person.pb.h	/^inline ::std::string* Address::release_room() {$/;"	f	class:Address	signature:()
+Address::release_streat	Person.pb.h	/^  inline ::std::string* release_streat();$/;"	p	class:Address	access:public	signature:()
+Address::release_streat	Person.pb.h	/^inline ::std::string* Address::release_streat() {$/;"	f	class:Address	signature:()
+Address::room	Person.pb.h	/^  inline const ::std::string& room() const;$/;"	p	class:Address	access:public	signature:() const
+Address::room	Person.pb.h	/^inline const ::std::string& Address::room() const {$/;"	f	class:Address	signature:() const
+Address::room_	Person.pb.h	/^  ::std::string* room_;$/;"	m	class:Address	access:private
+Address::set_allocated_room	Person.pb.h	/^  inline void set_allocated_room(::std::string* room);$/;"	p	class:Address	access:public	signature:(::std::string* room)
+Address::set_allocated_room	Person.pb.h	/^inline void Address::set_allocated_room(::std::string* room) {$/;"	f	class:Address	signature:(::std::string* room)
+Address::set_allocated_streat	Person.pb.h	/^  inline void set_allocated_streat(::std::string* streat);$/;"	p	class:Address	access:public	signature:(::std::string* streat)
+Address::set_allocated_streat	Person.pb.h	/^inline void Address::set_allocated_streat(::std::string* streat) {$/;"	f	class:Address	signature:(::std::string* streat)
+Address::set_has_room	Person.pb.h	/^  inline void set_has_room();$/;"	p	class:Address	access:private	signature:()
+Address::set_has_room	Person.pb.h	/^inline void Address::set_has_room() {$/;"	f	class:Address	signature:()
+Address::set_has_streat	Person.pb.h	/^  inline void set_has_streat();$/;"	p	class:Address	access:private	signature:()
+Address::set_has_streat	Person.pb.h	/^inline void Address::set_has_streat() {$/;"	f	class:Address	signature:()
+Address::set_room	Person.pb.h	/^  inline void set_room(const ::std::string& value);$/;"	p	class:Address	access:public	signature:(const ::std::string& value)
+Address::set_room	Person.pb.h	/^  inline void set_room(const char* value);$/;"	p	class:Address	access:public	signature:(const char* value)
+Address::set_room	Person.pb.h	/^  inline void set_room(const char* value, size_t size);$/;"	p	class:Address	access:public	signature:(const char* value, size_t size)
+Address::set_room	Person.pb.h	/^inline void Address::set_room(const ::std::string& value) {$/;"	f	class:Address	signature:(const ::std::string& value)
+Address::set_room	Person.pb.h	/^inline void Address::set_room(const char* value) {$/;"	f	class:Address	signature:(const char* value)
+Address::set_room	Person.pb.h	/^inline void Address::set_room(const char* value, size_t size) {$/;"	f	class:Address	signature:(const char* value, size_t size)
+Address::set_streat	Person.pb.h	/^  inline void set_streat(const ::std::string& value);$/;"	p	class:Address	access:public	signature:(const ::std::string& value)
+Address::set_streat	Person.pb.h	/^  inline void set_streat(const char* value);$/;"	p	class:Address	access:public	signature:(const char* value)
+Address::set_streat	Person.pb.h	/^  inline void set_streat(const char* value, size_t size);$/;"	p	class:Address	access:public	signature:(const char* value, size_t size)
+Address::set_streat	Person.pb.h	/^inline void Address::set_streat(const ::std::string& value) {$/;"	f	class:Address	signature:(const ::std::string& value)
+Address::set_streat	Person.pb.h	/^inline void Address::set_streat(const char* value) {$/;"	f	class:Address	signature:(const char* value)
+Address::set_streat	Person.pb.h	/^inline void Address::set_streat(const char* value, size_t size) {$/;"	f	class:Address	signature:(const char* value, size_t size)
+Address::streat	Person.pb.h	/^  inline const ::std::string& streat() const;$/;"	p	class:Address	access:public	signature:() const
+Address::streat	Person.pb.h	/^inline const ::std::string& Address::streat() const {$/;"	f	class:Address	signature:() const
+Address::streat_	Person.pb.h	/^  ::std::string* streat_;$/;"	m	class:Address	access:private
+Address::unknown_fields	Person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:Address	access:public	signature:() const
+Address::~Address	Person.pb.cc	/^Address::~Address() {$/;"	f	class:Address	signature:()
+Address::~Address	Person.pb.h	/^  virtual ~Address();$/;"	p	class:Address	access:public	signature:()
+Address_descriptor_	Person.pb.cc	/^const ::google::protobuf::Descriptor* Address_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+Address_reflection_	Person.pb.cc	/^  Address_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+ByteSize	Person.pb.cc	/^int Address::ByteSize() const {$/;"	f	class:Address	signature:() const
+ByteSize	Person.pb.cc	/^int Person::ByteSize() const {$/;"	f	class:Person	signature:() const
+ByteSize	Person.pb.h	/^  int ByteSize() const;$/;"	p	class:Address	access:public	signature:() const
+ByteSize	Person.pb.h	/^  int ByteSize() const;$/;"	p	class:Person	access:public	signature:() const
+Clear	Person.pb.cc	/^void Address::Clear() {$/;"	f	class:Address	signature:()
+Clear	Person.pb.cc	/^void Person::Clear() {$/;"	f	class:Person	signature:()
+Clear	Person.pb.h	/^  void Clear();$/;"	p	class:Address	access:public	signature:()
+Clear	Person.pb.h	/^  void Clear();$/;"	p	class:Person	access:public	signature:()
+CopyFrom	Person.pb.cc	/^void Address::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Address	signature:(const ::google::protobuf::Message& from)
+CopyFrom	Person.pb.cc	/^void Address::CopyFrom(const Address& from) {$/;"	f	class:Address	signature:(const Address& from)
+CopyFrom	Person.pb.cc	/^void Person::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person	signature:(const ::google::protobuf::Message& from)
+CopyFrom	Person.pb.cc	/^void Person::CopyFrom(const Person& from) {$/;"	f	class:Person	signature:(const Person& from)
+CopyFrom	Person.pb.h	/^  void CopyFrom(const ::google::protobuf::Message& from);$/;"	p	class:Address	access:public	signature:(const ::google::protobuf::Message& from)
+CopyFrom	Person.pb.h	/^  void CopyFrom(const ::google::protobuf::Message& from);$/;"	p	class:Person	access:public	signature:(const ::google::protobuf::Message& from)
+CopyFrom	Person.pb.h	/^  void CopyFrom(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+CopyFrom	Person.pb.h	/^  void CopyFrom(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+DO_	Person.pb.cc	229;"	d	file:
+DO_	Person.pb.cc	279;"	d	file:
+DO_	Person.pb.cc	571;"	d	file:
+DO_	Person.pb.cc	889;"	d	file:
+FAIL	Person.pb.cc	/^const Person_MO Person::FAIL;$/;"	m	class:Person	file:
+FAIL	Person.pb.h	/^  static const MO FAIL = Person_MO_FAIL;$/;"	m	class:Person	access:public
+Friends	persion.h	/^    vector<int> Friends() { return mFriends; }$/;"	f	class:Person	access:public	signature:()
+GOOGLE_PROTOBUF_DECLARE_ONCE	Person.pb.cc	/^GOOGLE_PROTOBUF_DECLARE_ONCE(protobuf_AssignDescriptors_once_);$/;"	p	namespace:__anon2	file:	signature:(protobuf_AssignDescriptors_once_)
+GetCachedSize	Person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:Address	access:public	signature:() const
+GetCachedSize	Person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:Person	access:public	signature:() const
+GetEnumDescriptor	Person.pb.h	/^inline const EnumDescriptor* GetEnumDescriptor< ::Person_MO>() {$/;"	f	namespace:google::protobuf	signature:()
+GetMetadata	Person.pb.cc	/^::google::protobuf::Metadata Address::GetMetadata() const {$/;"	f	class:Address	signature:() const
+GetMetadata	Person.pb.cc	/^::google::protobuf::Metadata Person::GetMetadata() const {$/;"	f	class:Person	signature:() const
+GetMetadata	Person.pb.h	/^  ::google::protobuf::Metadata GetMetadata() const;$/;"	p	class:Address	access:public	signature:() const
+GetMetadata	Person.pb.h	/^  ::google::protobuf::Metadata GetMetadata() const;$/;"	p	class:Person	access:public	signature:() const
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	Person.pb.cc	4;"	d	file:
+Id	persion.h	/^    int Id() const { return mId; }$/;"	f	class:Person	access:public	signature:() const
+Id	persion.h	/^    void Id(int id) { mId = id; }$/;"	f	class:Person	access:public	signature:(int id)
+InitAsDefaultInstance	Person.pb.cc	/^void Address::InitAsDefaultInstance() {$/;"	f	class:Address	signature:()
+InitAsDefaultInstance	Person.pb.cc	/^void Person::InitAsDefaultInstance() {$/;"	f	class:Person	signature:()
+InitAsDefaultInstance	Person.pb.h	/^  void InitAsDefaultInstance();$/;"	p	class:Address	access:private	signature:()
+InitAsDefaultInstance	Person.pb.h	/^  void InitAsDefaultInstance();$/;"	p	class:Person	access:private	signature:()
+IsInitialized	Person.pb.cc	/^bool Address::IsInitialized() const {$/;"	f	class:Address	signature:() const
+IsInitialized	Person.pb.cc	/^bool Person::IsInitialized() const {$/;"	f	class:Person	signature:() const
+IsInitialized	Person.pb.h	/^  bool IsInitialized() const;$/;"	p	class:Address	access:public	signature:() const
+IsInitialized	Person.pb.h	/^  bool IsInitialized() const;$/;"	p	class:Person	access:public	signature:() const
+MO	Person.pb.h	/^  typedef Person_MO MO;$/;"	t	class:Person	access:public
+MO_ARRAYSIZE	Person.pb.cc	/^const int Person::MO_ARRAYSIZE;$/;"	m	class:Person	file:
+MO_ARRAYSIZE	Person.pb.h	/^  static const int MO_ARRAYSIZE =$/;"	m	class:Person	access:public
+MO_IsValid	Person.pb.h	/^  static inline bool MO_IsValid(int value) {$/;"	f	class:Person	access:public	signature:(int value)
+MO_MAX	Person.pb.cc	/^const Person_MO Person::MO_MAX;$/;"	m	class:Person	file:
+MO_MAX	Person.pb.h	/^  static const MO MO_MAX =$/;"	m	class:Person	access:public
+MO_MIN	Person.pb.cc	/^const Person_MO Person::MO_MIN;$/;"	m	class:Person	file:
+MO_MIN	Person.pb.h	/^  static const MO MO_MIN =$/;"	m	class:Person	access:public
+MO_Name	Person.pb.h	/^  static inline const ::std::string& MO_Name(MO value) {$/;"	f	class:Person	access:public	signature:(MO value)
+MO_Parse	Person.pb.h	/^  static inline bool MO_Parse(const ::std::string& name,$/;"	f	class:Person	access:public	signature:(const ::std::string& name, MO* value)
+MO_descriptor	Person.pb.h	/^  MO_descriptor() {$/;"	f	class:Person	access:public	signature:()
+MergeFrom	Person.pb.cc	/^void Address::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Address	signature:(const ::google::protobuf::Message& from)
+MergeFrom	Person.pb.cc	/^void Address::MergeFrom(const Address& from) {$/;"	f	class:Address	signature:(const Address& from)
+MergeFrom	Person.pb.cc	/^void Person::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person	signature:(const ::google::protobuf::Message& from)
+MergeFrom	Person.pb.cc	/^void Person::MergeFrom(const Person& from) {$/;"	f	class:Person	signature:(const Person& from)
+MergeFrom	Person.pb.h	/^  void MergeFrom(const ::google::protobuf::Message& from);$/;"	p	class:Address	access:public	signature:(const ::google::protobuf::Message& from)
+MergeFrom	Person.pb.h	/^  void MergeFrom(const ::google::protobuf::Message& from);$/;"	p	class:Person	access:public	signature:(const ::google::protobuf::Message& from)
+MergeFrom	Person.pb.h	/^  void MergeFrom(const Address& from);$/;"	p	class:Address	access:public	signature:(const Address& from)
+MergeFrom	Person.pb.h	/^  void MergeFrom(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+MergePartialFromCodedStream	Person.pb.cc	/^bool Address::MergePartialFromCodedStream($/;"	f	class:Address	signature:( ::google::protobuf::io::CodedInputStream* input)
+MergePartialFromCodedStream	Person.pb.cc	/^bool Person::MergePartialFromCodedStream($/;"	f	class:Person	signature:( ::google::protobuf::io::CodedInputStream* input)
+MergePartialFromCodedStream	Person.pb.h	/^  bool MergePartialFromCodedStream($/;"	p	class:Address	access:public	signature:( ::google::protobuf::io::CodedInputStream* input)
+MergePartialFromCodedStream	Person.pb.h	/^  bool MergePartialFromCodedStream($/;"	p	class:Person	access:public	signature:( ::google::protobuf::io::CodedInputStream* input)
+Name	persion.h	/^    const string& Name()const { return mName;}$/;"	f	class:Person	access:public	signature:() const
+Name	persion.h	/^    void Name(const string name) { mName = name;}$/;"	f	class:Person	access:public	signature:(const string name)
+New	Person.pb.cc	/^Address* Address::New() const {$/;"	f	class:Address	signature:() const
+New	Person.pb.cc	/^Person* Person::New() const {$/;"	f	class:Person	signature:() const
+New	Person.pb.h	/^  Address* New() const;$/;"	p	class:Address	access:public	signature:() const
+New	Person.pb.h	/^  Person* New() const;$/;"	p	class:Person	access:public	signature:() const
+OK	Person.pb.cc	/^const Person_MO Person::OK;$/;"	m	class:Person	file:
+OK	Person.pb.h	/^  static const MO OK = Person_MO_OK;$/;"	m	class:Person	access:public
+OnDeserialized	Person.cpp	/^void OnDeserialized()$/;"	f	signature:()
+OnDeserialized	persion.h	/^    void OnDeserialized();$/;"	p	class:Person	access:public	signature:()
+OnDeserializing	Person.cpp	/^void OnDeserializing()$/;"	f	signature:()
+OnDeserializing	persion.h	/^    void OnDeserializing();$/;"	p	class:Person	access:public	signature:()
+OnSerialing	Person.cpp	/^void Person::OnSerialing()$/;"	f	class:Person	signature:()
+OnSerialing	persion.h	/^    void OnSerialing();$/;"	p	class:Person	access:public	signature:()
+OnSerialized	Person.cpp	/^void OnSerialized()$/;"	f	signature:()
+OnSerialized	persion.h	/^    void OnSerialized();$/;"	p	class:Person	access:public	signature:()
+PROTOBUF_Person_2eproto__INCLUDED	Person.pb.h	5;"	d
+Person	Person.pb.cc	/^Person::Person()$/;"	f	class:Person	signature:()
+Person	Person.pb.cc	/^Person::Person(const Person& from)$/;"	f	class:Person	signature:(const Person& from)
+Person	Person.pb.h	/^  Person();$/;"	p	class:Person	access:public	signature:()
+Person	Person.pb.h	/^  Person(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+Person	Person.pb.h	/^class Person : public ::google::protobuf::Message {$/;"	c	inherits:::google::protobuf::Message
+Person	persion.h	/^class Person$/;"	c
+Person::ByteSize	Person.pb.cc	/^int Person::ByteSize() const {$/;"	f	class:Person	signature:() const
+Person::ByteSize	Person.pb.h	/^  int ByteSize() const;$/;"	p	class:Person	access:public	signature:() const
+Person::Clear	Person.pb.cc	/^void Person::Clear() {$/;"	f	class:Person	signature:()
+Person::Clear	Person.pb.h	/^  void Clear();$/;"	p	class:Person	access:public	signature:()
+Person::CopyFrom	Person.pb.cc	/^void Person::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person	signature:(const ::google::protobuf::Message& from)
+Person::CopyFrom	Person.pb.cc	/^void Person::CopyFrom(const Person& from) {$/;"	f	class:Person	signature:(const Person& from)
+Person::CopyFrom	Person.pb.h	/^  void CopyFrom(const ::google::protobuf::Message& from);$/;"	p	class:Person	access:public	signature:(const ::google::protobuf::Message& from)
+Person::CopyFrom	Person.pb.h	/^  void CopyFrom(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+Person::FAIL	Person.pb.cc	/^const Person_MO Person::FAIL;$/;"	m	class:Person	file:
+Person::FAIL	Person.pb.h	/^  static const MO FAIL = Person_MO_FAIL;$/;"	m	class:Person	access:public
+Person::Friends	persion.h	/^    vector<int> Friends() { return mFriends; }$/;"	f	class:Person	access:public	signature:()
+Person::GetCachedSize	Person.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:Person	access:public	signature:() const
+Person::GetMetadata	Person.pb.cc	/^::google::protobuf::Metadata Person::GetMetadata() const {$/;"	f	class:Person	signature:() const
+Person::GetMetadata	Person.pb.h	/^  ::google::protobuf::Metadata GetMetadata() const;$/;"	p	class:Person	access:public	signature:() const
+Person::Id	persion.h	/^    int Id() const { return mId; }$/;"	f	class:Person	access:public	signature:() const
+Person::Id	persion.h	/^    void Id(int id) { mId = id; }$/;"	f	class:Person	access:public	signature:(int id)
+Person::InitAsDefaultInstance	Person.pb.cc	/^void Person::InitAsDefaultInstance() {$/;"	f	class:Person	signature:()
+Person::InitAsDefaultInstance	Person.pb.h	/^  void InitAsDefaultInstance();$/;"	p	class:Person	access:private	signature:()
+Person::IsInitialized	Person.pb.cc	/^bool Person::IsInitialized() const {$/;"	f	class:Person	signature:() const
+Person::IsInitialized	Person.pb.h	/^  bool IsInitialized() const;$/;"	p	class:Person	access:public	signature:() const
+Person::MO	Person.pb.h	/^  typedef Person_MO MO;$/;"	t	class:Person	access:public
+Person::MO_ARRAYSIZE	Person.pb.cc	/^const int Person::MO_ARRAYSIZE;$/;"	m	class:Person	file:
+Person::MO_ARRAYSIZE	Person.pb.h	/^  static const int MO_ARRAYSIZE =$/;"	m	class:Person	access:public
+Person::MO_IsValid	Person.pb.h	/^  static inline bool MO_IsValid(int value) {$/;"	f	class:Person	access:public	signature:(int value)
+Person::MO_MAX	Person.pb.cc	/^const Person_MO Person::MO_MAX;$/;"	m	class:Person	file:
+Person::MO_MAX	Person.pb.h	/^  static const MO MO_MAX =$/;"	m	class:Person	access:public
+Person::MO_MIN	Person.pb.cc	/^const Person_MO Person::MO_MIN;$/;"	m	class:Person	file:
+Person::MO_MIN	Person.pb.h	/^  static const MO MO_MIN =$/;"	m	class:Person	access:public
+Person::MO_Name	Person.pb.h	/^  static inline const ::std::string& MO_Name(MO value) {$/;"	f	class:Person	access:public	signature:(MO value)
+Person::MO_Parse	Person.pb.h	/^  static inline bool MO_Parse(const ::std::string& name,$/;"	f	class:Person	access:public	signature:(const ::std::string& name, MO* value)
+Person::MO_descriptor	Person.pb.h	/^  MO_descriptor() {$/;"	f	class:Person	access:public	signature:()
+Person::MergeFrom	Person.pb.cc	/^void Person::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:Person	signature:(const ::google::protobuf::Message& from)
+Person::MergeFrom	Person.pb.cc	/^void Person::MergeFrom(const Person& from) {$/;"	f	class:Person	signature:(const Person& from)
+Person::MergeFrom	Person.pb.h	/^  void MergeFrom(const ::google::protobuf::Message& from);$/;"	p	class:Person	access:public	signature:(const ::google::protobuf::Message& from)
+Person::MergeFrom	Person.pb.h	/^  void MergeFrom(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+Person::MergePartialFromCodedStream	Person.pb.cc	/^bool Person::MergePartialFromCodedStream($/;"	f	class:Person	signature:( ::google::protobuf::io::CodedInputStream* input)
+Person::MergePartialFromCodedStream	Person.pb.h	/^  bool MergePartialFromCodedStream($/;"	p	class:Person	access:public	signature:( ::google::protobuf::io::CodedInputStream* input)
+Person::Name	persion.h	/^    const string& Name()const { return mName;}$/;"	f	class:Person	access:public	signature:() const
+Person::Name	persion.h	/^    void Name(const string name) { mName = name;}$/;"	f	class:Person	access:public	signature:(const string name)
+Person::New	Person.pb.cc	/^Person* Person::New() const {$/;"	f	class:Person	signature:() const
+Person::New	Person.pb.h	/^  Person* New() const;$/;"	p	class:Person	access:public	signature:() const
+Person::OK	Person.pb.cc	/^const Person_MO Person::OK;$/;"	m	class:Person	file:
+Person::OK	Person.pb.h	/^  static const MO OK = Person_MO_OK;$/;"	m	class:Person	access:public
+Person::OnDeserialized	persion.h	/^    void OnDeserialized();$/;"	p	class:Person	access:public	signature:()
+Person::OnDeserializing	persion.h	/^    void OnDeserializing();$/;"	p	class:Person	access:public	signature:()
+Person::OnSerialing	Person.cpp	/^void Person::OnSerialing()$/;"	f	class:Person	signature:()
+Person::OnSerialing	persion.h	/^    void OnSerialing();$/;"	p	class:Person	access:public	signature:()
+Person::OnSerialized	persion.h	/^    void OnSerialized();$/;"	p	class:Person	access:public	signature:()
+Person::Person	Person.pb.cc	/^Person::Person()$/;"	f	class:Person	signature:()
+Person::Person	Person.pb.cc	/^Person::Person(const Person& from)$/;"	f	class:Person	signature:(const Person& from)
+Person::Person	Person.pb.h	/^  Person();$/;"	p	class:Person	access:public	signature:()
+Person::Person	Person.pb.h	/^  Person(const Person& from);$/;"	p	class:Person	access:public	signature:(const Person& from)
+Person::SerializeWithCachedSizes	Person.pb.cc	/^void Person::SerializeWithCachedSizes($/;"	f	class:Person	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+Person::SerializeWithCachedSizes	Person.pb.h	/^  void SerializeWithCachedSizes($/;"	p	class:Person	access:public	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+Person::SerializeWithCachedSizesToArray	Person.pb.cc	/^::google::protobuf::uint8* Person::SerializeWithCachedSizesToArray($/;"	f	class:Person	signature:( ::google::protobuf::uint8* target) const
+Person::SerializeWithCachedSizesToArray	Person.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint8* output) const
+Person::SetCachedSize	Person.pb.cc	/^void Person::SetCachedSize(int size) const {$/;"	f	class:Person	signature:(int size) const
+Person::SetCachedSize	Person.pb.h	/^  void SetCachedSize(int size) const;$/;"	p	class:Person	access:private	signature:(int size) const
+Person::SharedCtor	Person.pb.cc	/^void Person::SharedCtor() {$/;"	f	class:Person	signature:()
+Person::SharedCtor	Person.pb.h	/^  void SharedCtor();$/;"	p	class:Person	access:private	signature:()
+Person::SharedDtor	Person.pb.cc	/^void Person::SharedDtor() {$/;"	f	class:Person	signature:()
+Person::SharedDtor	Person.pb.h	/^  void SharedDtor();$/;"	p	class:Person	access:private	signature:()
+Person::Swap	Person.pb.cc	/^void Person::Swap(Person* other) {$/;"	f	class:Person	signature:(Person* other)
+Person::Swap	Person.pb.h	/^  void Swap(Person* other);$/;"	p	class:Person	access:public	signature:(Person* other)
+Person::_cached_size_	Person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:Person	access:private
+Person::_has_bits_	Person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[(17 + 31) \/ 32];$/;"	m	class:Person	access:private
+Person::_unknown_fields_	Person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:Person	access:private
+Person::add_address	Person.pb.h	/^  inline ::Address* add_address();$/;"	p	class:Person	access:public	signature:()
+Person::add_address	Person.pb.h	/^inline ::Address* Person::add_address() {$/;"	f	class:Person	signature:()
+Person::add_adouble	Person.pb.h	/^  inline void add_adouble(double value);$/;"	p	class:Person	access:public	signature:(double value)
+Person::add_adouble	Person.pb.h	/^inline void Person::add_adouble(double value) {$/;"	f	class:Person	signature:(double value)
+Person::add_afloat	Person.pb.h	/^  inline void add_afloat(float value);$/;"	p	class:Person	access:public	signature:(float value)
+Person::add_afloat	Person.pb.h	/^inline void Person::add_afloat(float value) {$/;"	f	class:Person	signature:(float value)
+Person::add_aint	Person.pb.h	/^  inline void add_aint(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+Person::add_aint	Person.pb.h	/^inline void Person::add_aint(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+Person::add_astring	Person.pb.h	/^  inline ::std::string* add_astring();$/;"	p	class:Person	access:public	signature:()
+Person::add_astring	Person.pb.h	/^  inline void add_astring(const ::std::string& value);$/;"	p	class:Person	access:public	signature:(const ::std::string& value)
+Person::add_astring	Person.pb.h	/^  inline void add_astring(const char* value);$/;"	p	class:Person	access:public	signature:(const char* value)
+Person::add_astring	Person.pb.h	/^  inline void add_astring(const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(const char* value, size_t size)
+Person::add_astring	Person.pb.h	/^inline ::std::string* Person::add_astring() {$/;"	f	class:Person	signature:()
+Person::add_astring	Person.pb.h	/^inline void Person::add_astring(const ::std::string& value) {$/;"	f	class:Person	signature:(const ::std::string& value)
+Person::add_astring	Person.pb.h	/^inline void Person::add_astring(const char* value) {$/;"	f	class:Person	signature:(const char* value)
+Person::add_astring	Person.pb.h	/^inline void Person::add_astring(const char* value, size_t size) {$/;"	f	class:Person	signature:(const char* value, size_t size)
+Person::add_friends	Person.pb.h	/^  inline void add_friends(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+Person::add_friends	Person.pb.h	/^inline void Person::add_friends(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+Person::address	Person.pb.h	/^      address() const;$/;"	p	class:Person	access:public	signature:() const
+Person::address	Person.pb.h	/^  inline const ::Address& address(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::address	Person.pb.h	/^Person::address() const {$/;"	f	class:Person	signature:() const
+Person::address	Person.pb.h	/^inline const ::Address& Person::address(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::address_	Person.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::Address > address_;$/;"	m	class:Person	access:private
+Person::address_size	Person.pb.h	/^  inline int address_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::address_size	Person.pb.h	/^inline int Person::address_size() const {$/;"	f	class:Person	signature:() const
+Person::adouble	Person.pb.h	/^      adouble() const;$/;"	p	class:Person	access:public	signature:() const
+Person::adouble	Person.pb.h	/^  inline double adouble(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::adouble	Person.pb.h	/^Person::adouble() const {$/;"	f	class:Person	signature:() const
+Person::adouble	Person.pb.h	/^inline double Person::adouble(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::adouble_	Person.pb.h	/^  ::google::protobuf::RepeatedField< double > adouble_;$/;"	m	class:Person	access:private
+Person::adouble_size	Person.pb.h	/^  inline int adouble_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::adouble_size	Person.pb.h	/^inline int Person::adouble_size() const {$/;"	f	class:Person	signature:() const
+Person::afloat	Person.pb.h	/^      afloat() const;$/;"	p	class:Person	access:public	signature:() const
+Person::afloat	Person.pb.h	/^  inline float afloat(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::afloat	Person.pb.h	/^Person::afloat() const {$/;"	f	class:Person	signature:() const
+Person::afloat	Person.pb.h	/^inline float Person::afloat(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::afloat_	Person.pb.h	/^  ::google::protobuf::RepeatedField< float > afloat_;$/;"	m	class:Person	access:private
+Person::afloat_size	Person.pb.h	/^  inline int afloat_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::afloat_size	Person.pb.h	/^inline int Person::afloat_size() const {$/;"	f	class:Person	signature:() const
+Person::age	Person.pb.h	/^  inline double age() const;$/;"	p	class:Person	access:public	signature:() const
+Person::age	Person.pb.h	/^inline double Person::age() const {$/;"	f	class:Person	signature:() const
+Person::age_	Person.pb.h	/^  double age_;$/;"	m	class:Person	access:private
+Person::aint	Person.pb.h	/^      aint() const;$/;"	p	class:Person	access:public	signature:() const
+Person::aint	Person.pb.h	/^  inline ::google::protobuf::int32 aint(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::aint	Person.pb.h	/^Person::aint() const {$/;"	f	class:Person	signature:() const
+Person::aint	Person.pb.h	/^inline ::google::protobuf::int32 Person::aint(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::aint_	Person.pb.h	/^  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > aint_;$/;"	m	class:Person	access:private
+Person::aint_size	Person.pb.h	/^  inline int aint_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::aint_size	Person.pb.h	/^inline int Person::aint_size() const {$/;"	f	class:Person	signature:() const
+Person::astring	Person.pb.h	/^  inline const ::google::protobuf::RepeatedPtrField< ::std::string>& astring() const;$/;"	p	class:Person	access:public	signature:() const
+Person::astring	Person.pb.h	/^  inline const ::std::string& astring(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::astring	Person.pb.h	/^Person::astring() const {$/;"	f	class:Person	signature:() const
+Person::astring	Person.pb.h	/^inline const ::std::string& Person::astring(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::astring_	Person.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::std::string> astring_;$/;"	m	class:Person	access:private
+Person::astring_size	Person.pb.h	/^  inline int astring_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::astring_size	Person.pb.h	/^inline int Person::astring_size() const {$/;"	f	class:Person	signature:() const
+Person::clear_address	Person.pb.h	/^  inline void clear_address();$/;"	p	class:Person	access:public	signature:()
+Person::clear_address	Person.pb.h	/^inline void Person::clear_address() {$/;"	f	class:Person	signature:()
+Person::clear_adouble	Person.pb.h	/^  inline void clear_adouble();$/;"	p	class:Person	access:public	signature:()
+Person::clear_adouble	Person.pb.h	/^inline void Person::clear_adouble() {$/;"	f	class:Person	signature:()
+Person::clear_afloat	Person.pb.h	/^  inline void clear_afloat();$/;"	p	class:Person	access:public	signature:()
+Person::clear_afloat	Person.pb.h	/^inline void Person::clear_afloat() {$/;"	f	class:Person	signature:()
+Person::clear_age	Person.pb.h	/^  inline void clear_age();$/;"	p	class:Person	access:public	signature:()
+Person::clear_age	Person.pb.h	/^inline void Person::clear_age() {$/;"	f	class:Person	signature:()
+Person::clear_aint	Person.pb.h	/^  inline void clear_aint();$/;"	p	class:Person	access:public	signature:()
+Person::clear_aint	Person.pb.h	/^inline void Person::clear_aint() {$/;"	f	class:Person	signature:()
+Person::clear_astring	Person.pb.h	/^  inline void clear_astring();$/;"	p	class:Person	access:public	signature:()
+Person::clear_astring	Person.pb.h	/^inline void Person::clear_astring() {$/;"	f	class:Person	signature:()
+Person::clear_friends	Person.pb.h	/^  inline void clear_friends();$/;"	p	class:Person	access:public	signature:()
+Person::clear_friends	Person.pb.h	/^inline void Person::clear_friends() {$/;"	f	class:Person	signature:()
+Person::clear_has_age	Person.pb.h	/^  inline void clear_has_age();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_age	Person.pb.h	/^inline void Person::clear_has_age() {$/;"	f	class:Person	signature:()
+Person::clear_has_haschild	Person.pb.h	/^  inline void clear_has_haschild();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_haschild	Person.pb.h	/^inline void Person::clear_has_haschild() {$/;"	f	class:Person	signature:()
+Person::clear_has_i32	Person.pb.h	/^  inline void clear_has_i32();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_i32	Person.pb.h	/^inline void Person::clear_has_i32() {$/;"	f	class:Person	signature:()
+Person::clear_has_i64	Person.pb.h	/^  inline void clear_has_i64();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_i64	Person.pb.h	/^inline void Person::clear_has_i64() {$/;"	f	class:Person	signature:()
+Person::clear_has_id	Person.pb.h	/^  inline void clear_has_id();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_id	Person.pb.h	/^inline void Person::clear_has_id() {$/;"	f	class:Person	signature:()
+Person::clear_has_ii	Person.pb.h	/^  inline void clear_has_ii();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_ii	Person.pb.h	/^inline void Person::clear_has_ii() {$/;"	f	class:Person	signature:()
+Person::clear_has_ii32	Person.pb.h	/^  inline void clear_has_ii32();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_ii32	Person.pb.h	/^inline void Person::clear_has_ii32() {$/;"	f	class:Person	signature:()
+Person::clear_has_ii64	Person.pb.h	/^  inline void clear_has_ii64();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_ii64	Person.pb.h	/^inline void Person::clear_has_ii64() {$/;"	f	class:Person	signature:()
+Person::clear_has_name	Person.pb.h	/^  inline void clear_has_name();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_name	Person.pb.h	/^inline void Person::clear_has_name() {$/;"	f	class:Person	signature:()
+Person::clear_has_one	Person.pb.h	/^  inline void clear_has_one();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_one	Person.pb.h	/^inline void Person::clear_has_one() {$/;"	f	class:Person	signature:()
+Person::clear_has_salary	Person.pb.h	/^  inline void clear_has_salary();$/;"	p	class:Person	access:private	signature:()
+Person::clear_has_salary	Person.pb.h	/^inline void Person::clear_has_salary() {$/;"	f	class:Person	signature:()
+Person::clear_haschild	Person.pb.h	/^  inline void clear_haschild();$/;"	p	class:Person	access:public	signature:()
+Person::clear_haschild	Person.pb.h	/^inline void Person::clear_haschild() {$/;"	f	class:Person	signature:()
+Person::clear_i32	Person.pb.h	/^  inline void clear_i32();$/;"	p	class:Person	access:public	signature:()
+Person::clear_i32	Person.pb.h	/^inline void Person::clear_i32() {$/;"	f	class:Person	signature:()
+Person::clear_i64	Person.pb.h	/^  inline void clear_i64();$/;"	p	class:Person	access:public	signature:()
+Person::clear_i64	Person.pb.h	/^inline void Person::clear_i64() {$/;"	f	class:Person	signature:()
+Person::clear_id	Person.pb.h	/^  inline void clear_id();$/;"	p	class:Person	access:public	signature:()
+Person::clear_id	Person.pb.h	/^inline void Person::clear_id() {$/;"	f	class:Person	signature:()
+Person::clear_ii	Person.pb.h	/^  inline void clear_ii();$/;"	p	class:Person	access:public	signature:()
+Person::clear_ii	Person.pb.h	/^inline void Person::clear_ii() {$/;"	f	class:Person	signature:()
+Person::clear_ii32	Person.pb.h	/^  inline void clear_ii32();$/;"	p	class:Person	access:public	signature:()
+Person::clear_ii32	Person.pb.h	/^inline void Person::clear_ii32() {$/;"	f	class:Person	signature:()
+Person::clear_ii64	Person.pb.h	/^  inline void clear_ii64();$/;"	p	class:Person	access:public	signature:()
+Person::clear_ii64	Person.pb.h	/^inline void Person::clear_ii64() {$/;"	f	class:Person	signature:()
+Person::clear_name	Person.pb.h	/^  inline void clear_name();$/;"	p	class:Person	access:public	signature:()
+Person::clear_name	Person.pb.h	/^inline void Person::clear_name() {$/;"	f	class:Person	signature:()
+Person::clear_one	Person.pb.h	/^  inline void clear_one();$/;"	p	class:Person	access:public	signature:()
+Person::clear_one	Person.pb.h	/^inline void Person::clear_one() {$/;"	f	class:Person	signature:()
+Person::clear_salary	Person.pb.h	/^  inline void clear_salary();$/;"	p	class:Person	access:public	signature:()
+Person::clear_salary	Person.pb.h	/^inline void Person::clear_salary() {$/;"	f	class:Person	signature:()
+Person::default_instance	Person.pb.cc	/^const Person& Person::default_instance() {$/;"	f	class:Person	signature:()
+Person::default_instance	Person.pb.h	/^  static const Person& default_instance();$/;"	p	class:Person	access:public	signature:()
+Person::default_instance_	Person.pb.cc	/^Person* Person::default_instance_ = NULL;$/;"	m	class:Person	file:
+Person::default_instance_	Person.pb.h	/^  static Person* default_instance_;$/;"	m	class:Person	access:private
+Person::descriptor	Person.pb.cc	/^const ::google::protobuf::Descriptor* Person::descriptor() {$/;"	f	class:Person	signature:()
+Person::descriptor	Person.pb.h	/^  static const ::google::protobuf::Descriptor* descriptor();$/;"	p	class:Person	access:public	signature:()
+Person::friends	Person.pb.h	/^      friends() const;$/;"	p	class:Person	access:public	signature:() const
+Person::friends	Person.pb.h	/^  inline ::google::protobuf::int32 friends(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+Person::friends	Person.pb.h	/^Person::friends() const {$/;"	f	class:Person	signature:() const
+Person::friends	Person.pb.h	/^inline ::google::protobuf::int32 Person::friends(int index) const {$/;"	f	class:Person	signature:(int index) const
+Person::friends_	Person.pb.h	/^  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > friends_;$/;"	m	class:Person	access:private
+Person::friends_size	Person.pb.h	/^  inline int friends_size() const;$/;"	p	class:Person	access:public	signature:() const
+Person::friends_size	Person.pb.h	/^inline int Person::friends_size() const {$/;"	f	class:Person	signature:() const
+Person::has_age	Person.pb.h	/^  inline bool has_age() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_age	Person.pb.h	/^inline bool Person::has_age() const {$/;"	f	class:Person	signature:() const
+Person::has_haschild	Person.pb.h	/^  inline bool has_haschild() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_haschild	Person.pb.h	/^inline bool Person::has_haschild() const {$/;"	f	class:Person	signature:() const
+Person::has_i32	Person.pb.h	/^  inline bool has_i32() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_i32	Person.pb.h	/^inline bool Person::has_i32() const {$/;"	f	class:Person	signature:() const
+Person::has_i64	Person.pb.h	/^  inline bool has_i64() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_i64	Person.pb.h	/^inline bool Person::has_i64() const {$/;"	f	class:Person	signature:() const
+Person::has_id	Person.pb.h	/^  inline bool has_id() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_id	Person.pb.h	/^inline bool Person::has_id() const {$/;"	f	class:Person	signature:() const
+Person::has_ii	Person.pb.h	/^  inline bool has_ii() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_ii	Person.pb.h	/^inline bool Person::has_ii() const {$/;"	f	class:Person	signature:() const
+Person::has_ii32	Person.pb.h	/^  inline bool has_ii32() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_ii32	Person.pb.h	/^inline bool Person::has_ii32() const {$/;"	f	class:Person	signature:() const
+Person::has_ii64	Person.pb.h	/^  inline bool has_ii64() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_ii64	Person.pb.h	/^inline bool Person::has_ii64() const {$/;"	f	class:Person	signature:() const
+Person::has_name	Person.pb.h	/^  inline bool has_name() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_name	Person.pb.h	/^inline bool Person::has_name() const {$/;"	f	class:Person	signature:() const
+Person::has_one	Person.pb.h	/^  inline bool has_one() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_one	Person.pb.h	/^inline bool Person::has_one() const {$/;"	f	class:Person	signature:() const
+Person::has_salary	Person.pb.h	/^  inline bool has_salary() const;$/;"	p	class:Person	access:public	signature:() const
+Person::has_salary	Person.pb.h	/^inline bool Person::has_salary() const {$/;"	f	class:Person	signature:() const
+Person::haschild	Person.pb.h	/^  inline bool haschild() const;$/;"	p	class:Person	access:public	signature:() const
+Person::haschild	Person.pb.h	/^inline bool Person::haschild() const {$/;"	f	class:Person	signature:() const
+Person::haschild_	Person.pb.h	/^  bool haschild_;$/;"	m	class:Person	access:private
+Person::i32	Person.pb.h	/^  inline ::google::protobuf::int32 i32() const;$/;"	p	class:Person	access:public	signature:() const
+Person::i32	Person.pb.h	/^inline ::google::protobuf::int32 Person::i32() const {$/;"	f	class:Person	signature:() const
+Person::i32_	Person.pb.h	/^  ::google::protobuf::int32 i32_;$/;"	m	class:Person	access:private
+Person::i64	Person.pb.h	/^  inline ::google::protobuf::int64 i64() const;$/;"	p	class:Person	access:public	signature:() const
+Person::i64	Person.pb.h	/^inline ::google::protobuf::int64 Person::i64() const {$/;"	f	class:Person	signature:() const
+Person::i64_	Person.pb.h	/^  ::google::protobuf::int64 i64_;$/;"	m	class:Person	access:private
+Person::id	Person.pb.h	/^  inline ::google::protobuf::int32 id() const;$/;"	p	class:Person	access:public	signature:() const
+Person::id	Person.pb.h	/^inline ::google::protobuf::int32 Person::id() const {$/;"	f	class:Person	signature:() const
+Person::id_	Person.pb.h	/^  ::google::protobuf::int32 id_;$/;"	m	class:Person	access:private
+Person::ii	Person.pb.h	/^  inline ::Person_MO ii() const;$/;"	p	class:Person	access:public	signature:() const
+Person::ii	Person.pb.h	/^inline ::Person_MO Person::ii() const {$/;"	f	class:Person	signature:() const
+Person::ii32	Person.pb.h	/^  inline ::google::protobuf::uint32 ii32() const;$/;"	p	class:Person	access:public	signature:() const
+Person::ii32	Person.pb.h	/^inline ::google::protobuf::uint32 Person::ii32() const {$/;"	f	class:Person	signature:() const
+Person::ii32_	Person.pb.h	/^  ::google::protobuf::uint32 ii32_;$/;"	m	class:Person	access:private
+Person::ii64	Person.pb.h	/^  inline ::google::protobuf::uint64 ii64() const;$/;"	p	class:Person	access:public	signature:() const
+Person::ii64	Person.pb.h	/^inline ::google::protobuf::uint64 Person::ii64() const {$/;"	f	class:Person	signature:() const
+Person::ii64_	Person.pb.h	/^  ::google::protobuf::uint64 ii64_;$/;"	m	class:Person	access:private
+Person::ii_	Person.pb.h	/^  int ii_;$/;"	m	class:Person	access:private
+Person::kADoubleFieldNumber	Person.pb.cc	/^const int Person::kADoubleFieldNumber;$/;"	m	class:Person	file:
+Person::kADoubleFieldNumber	Person.pb.h	/^  static const int kADoubleFieldNumber = 20;$/;"	m	class:Person	access:public
+Person::kAFloatFieldNumber	Person.pb.cc	/^const int Person::kAFloatFieldNumber;$/;"	m	class:Person	file:
+Person::kAFloatFieldNumber	Person.pb.h	/^  static const int kAFloatFieldNumber = 19;$/;"	m	class:Person	access:public
+Person::kAIntFieldNumber	Person.pb.cc	/^const int Person::kAIntFieldNumber;$/;"	m	class:Person	file:
+Person::kAIntFieldNumber	Person.pb.h	/^  static const int kAIntFieldNumber = 18;$/;"	m	class:Person	access:public
+Person::kAStringFieldNumber	Person.pb.cc	/^const int Person::kAStringFieldNumber;$/;"	m	class:Person	file:
+Person::kAStringFieldNumber	Person.pb.h	/^  static const int kAStringFieldNumber = 21;$/;"	m	class:Person	access:public
+Person::kAddressFieldNumber	Person.pb.cc	/^const int Person::kAddressFieldNumber;$/;"	m	class:Person	file:
+Person::kAddressFieldNumber	Person.pb.h	/^  static const int kAddressFieldNumber = 15;$/;"	m	class:Person	access:public
+Person::kAgeFieldNumber	Person.pb.cc	/^const int Person::kAgeFieldNumber;$/;"	m	class:Person	file:
+Person::kAgeFieldNumber	Person.pb.h	/^  static const int kAgeFieldNumber = 4;$/;"	m	class:Person	access:public
+Person::kFriendsFieldNumber	Person.pb.cc	/^const int Person::kFriendsFieldNumber;$/;"	m	class:Person	file:
+Person::kFriendsFieldNumber	Person.pb.h	/^  static const int kFriendsFieldNumber = 3;$/;"	m	class:Person	access:public
+Person::kHaschildFieldNumber	Person.pb.cc	/^const int Person::kHaschildFieldNumber;$/;"	m	class:Person	file:
+Person::kHaschildFieldNumber	Person.pb.h	/^  static const int kHaschildFieldNumber = 6;$/;"	m	class:Person	access:public
+Person::kI32FieldNumber	Person.pb.cc	/^const int Person::kI32FieldNumber;$/;"	m	class:Person	file:
+Person::kI32FieldNumber	Person.pb.h	/^  static const int kI32FieldNumber = 13;$/;"	m	class:Person	access:public
+Person::kI64FieldNumber	Person.pb.cc	/^const int Person::kI64FieldNumber;$/;"	m	class:Person	file:
+Person::kI64FieldNumber	Person.pb.h	/^  static const int kI64FieldNumber = 14;$/;"	m	class:Person	access:public
+Person::kIdFieldNumber	Person.pb.cc	/^const int Person::kIdFieldNumber;$/;"	m	class:Person	file:
+Person::kIdFieldNumber	Person.pb.h	/^  static const int kIdFieldNumber = 1;$/;"	m	class:Person	access:public
+Person::kIi32FieldNumber	Person.pb.cc	/^const int Person::kIi32FieldNumber;$/;"	m	class:Person	file:
+Person::kIi32FieldNumber	Person.pb.h	/^  static const int kIi32FieldNumber = 9;$/;"	m	class:Person	access:public
+Person::kIi64FieldNumber	Person.pb.cc	/^const int Person::kIi64FieldNumber;$/;"	m	class:Person	file:
+Person::kIi64FieldNumber	Person.pb.h	/^  static const int kIi64FieldNumber = 10;$/;"	m	class:Person	access:public
+Person::kIiFieldNumber	Person.pb.cc	/^const int Person::kIiFieldNumber;$/;"	m	class:Person	file:
+Person::kIiFieldNumber	Person.pb.h	/^  static const int kIiFieldNumber = 16;$/;"	m	class:Person	access:public
+Person::kNameFieldNumber	Person.pb.cc	/^const int Person::kNameFieldNumber;$/;"	m	class:Person	file:
+Person::kNameFieldNumber	Person.pb.h	/^  static const int kNameFieldNumber = 2;$/;"	m	class:Person	access:public
+Person::kOneFieldNumber	Person.pb.cc	/^const int Person::kOneFieldNumber;$/;"	m	class:Person	file:
+Person::kOneFieldNumber	Person.pb.h	/^  static const int kOneFieldNumber = 17;$/;"	m	class:Person	access:public
+Person::kSalaryFieldNumber	Person.pb.cc	/^const int Person::kSalaryFieldNumber;$/;"	m	class:Person	file:
+Person::kSalaryFieldNumber	Person.pb.h	/^  static const int kSalaryFieldNumber = 5;$/;"	m	class:Person	access:public
+Person::mFriends	persion.h	/^    vector<int> mFriends;$/;"	m	class:Person	access:private
+Person::mId	persion.h	/^    int mId;$/;"	m	class:Person	access:private
+Person::mName	persion.h	/^    string mName;$/;"	m	class:Person	access:private
+Person::mutable_address	Person.pb.h	/^      mutable_address();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_address	Person.pb.h	/^  inline ::Address* mutable_address(int index);$/;"	p	class:Person	access:public	signature:(int index)
+Person::mutable_address	Person.pb.h	/^Person::mutable_address() {$/;"	f	class:Person	signature:()
+Person::mutable_address	Person.pb.h	/^inline ::Address* Person::mutable_address(int index) {$/;"	f	class:Person	signature:(int index)
+Person::mutable_adouble	Person.pb.h	/^      mutable_adouble();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_adouble	Person.pb.h	/^Person::mutable_adouble() {$/;"	f	class:Person	signature:()
+Person::mutable_afloat	Person.pb.h	/^      mutable_afloat();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_afloat	Person.pb.h	/^Person::mutable_afloat() {$/;"	f	class:Person	signature:()
+Person::mutable_aint	Person.pb.h	/^      mutable_aint();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_aint	Person.pb.h	/^Person::mutable_aint() {$/;"	f	class:Person	signature:()
+Person::mutable_astring	Person.pb.h	/^  inline ::google::protobuf::RepeatedPtrField< ::std::string>* mutable_astring();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_astring	Person.pb.h	/^  inline ::std::string* mutable_astring(int index);$/;"	p	class:Person	access:public	signature:(int index)
+Person::mutable_astring	Person.pb.h	/^Person::mutable_astring() {$/;"	f	class:Person	signature:()
+Person::mutable_astring	Person.pb.h	/^inline ::std::string* Person::mutable_astring(int index) {$/;"	f	class:Person	signature:(int index)
+Person::mutable_friends	Person.pb.h	/^      mutable_friends();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_friends	Person.pb.h	/^Person::mutable_friends() {$/;"	f	class:Person	signature:()
+Person::mutable_name	Person.pb.h	/^  inline ::std::string* mutable_name();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_name	Person.pb.h	/^inline ::std::string* Person::mutable_name() {$/;"	f	class:Person	signature:()
+Person::mutable_one	Person.pb.h	/^  inline ::Address* mutable_one();$/;"	p	class:Person	access:public	signature:()
+Person::mutable_one	Person.pb.h	/^inline ::Address* Person::mutable_one() {$/;"	f	class:Person	signature:()
+Person::mutable_unknown_fields	Person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:Person	access:public	signature:()
+Person::name	Person.pb.h	/^  inline const ::std::string& name() const;$/;"	p	class:Person	access:public	signature:() const
+Person::name	Person.pb.h	/^inline const ::std::string& Person::name() const {$/;"	f	class:Person	signature:() const
+Person::name_	Person.pb.h	/^  ::std::string* name_;$/;"	m	class:Person	access:private
+Person::one	Person.pb.h	/^  inline const ::Address& one() const;$/;"	p	class:Person	access:public	signature:() const
+Person::one	Person.pb.h	/^inline const ::Address& Person::one() const {$/;"	f	class:Person	signature:() const
+Person::one_	Person.pb.h	/^  ::Address* one_;$/;"	m	class:Person	access:private
+Person::operator =	Person.pb.h	/^  inline Person& operator=(const Person& from) {$/;"	f	class:Person	access:public	signature:(const Person& from)
+Person::protobuf_AddDesc_Person_2eproto	Person.pb.h	/^  friend void  protobuf_AddDesc_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+Person::protobuf_AssignDesc_Person_2eproto	Person.pb.h	/^  friend void protobuf_AssignDesc_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+Person::protobuf_ShutdownFile_Person_2eproto	Person.pb.h	/^  friend void protobuf_ShutdownFile_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+Person::release_name	Person.pb.h	/^  inline ::std::string* release_name();$/;"	p	class:Person	access:public	signature:()
+Person::release_name	Person.pb.h	/^inline ::std::string* Person::release_name() {$/;"	f	class:Person	signature:()
+Person::release_one	Person.pb.h	/^  inline ::Address* release_one();$/;"	p	class:Person	access:public	signature:()
+Person::release_one	Person.pb.h	/^inline ::Address* Person::release_one() {$/;"	f	class:Person	signature:()
+Person::salary	Person.pb.h	/^  inline float salary() const;$/;"	p	class:Person	access:public	signature:() const
+Person::salary	Person.pb.h	/^inline float Person::salary() const {$/;"	f	class:Person	signature:() const
+Person::salary_	Person.pb.h	/^  float salary_;$/;"	m	class:Person	access:private
+Person::set_adouble	Person.pb.h	/^  inline void set_adouble(int index, double value);$/;"	p	class:Person	access:public	signature:(int index, double value)
+Person::set_adouble	Person.pb.h	/^inline void Person::set_adouble(int index, double value) {$/;"	f	class:Person	signature:(int index, double value)
+Person::set_afloat	Person.pb.h	/^  inline void set_afloat(int index, float value);$/;"	p	class:Person	access:public	signature:(int index, float value)
+Person::set_afloat	Person.pb.h	/^inline void Person::set_afloat(int index, float value) {$/;"	f	class:Person	signature:(int index, float value)
+Person::set_age	Person.pb.h	/^  inline void set_age(double value);$/;"	p	class:Person	access:public	signature:(double value)
+Person::set_age	Person.pb.h	/^inline void Person::set_age(double value) {$/;"	f	class:Person	signature:(double value)
+Person::set_aint	Person.pb.h	/^  inline void set_aint(int index, ::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(int index, ::google::protobuf::int32 value)
+Person::set_aint	Person.pb.h	/^inline void Person::set_aint(int index, ::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(int index, ::google::protobuf::int32 value)
+Person::set_allocated_name	Person.pb.h	/^  inline void set_allocated_name(::std::string* name);$/;"	p	class:Person	access:public	signature:(::std::string* name)
+Person::set_allocated_name	Person.pb.h	/^inline void Person::set_allocated_name(::std::string* name) {$/;"	f	class:Person	signature:(::std::string* name)
+Person::set_allocated_one	Person.pb.h	/^  inline void set_allocated_one(::Address* one);$/;"	p	class:Person	access:public	signature:(::Address* one)
+Person::set_allocated_one	Person.pb.h	/^inline void Person::set_allocated_one(::Address* one) {$/;"	f	class:Person	signature:(::Address* one)
+Person::set_astring	Person.pb.h	/^  inline void set_astring(int index, const ::std::string& value);$/;"	p	class:Person	access:public	signature:(int index, const ::std::string& value)
+Person::set_astring	Person.pb.h	/^  inline void set_astring(int index, const char* value);$/;"	p	class:Person	access:public	signature:(int index, const char* value)
+Person::set_astring	Person.pb.h	/^  inline void set_astring(int index, const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(int index, const char* value, size_t size)
+Person::set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const ::std::string& value) {$/;"	f	class:Person	signature:(int index, const ::std::string& value)
+Person::set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const char* value) {$/;"	f	class:Person	signature:(int index, const char* value)
+Person::set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const char* value, size_t size) {$/;"	f	class:Person	signature:(int index, const char* value, size_t size)
+Person::set_friends	Person.pb.h	/^  inline void set_friends(int index, ::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(int index, ::google::protobuf::int32 value)
+Person::set_friends	Person.pb.h	/^inline void Person::set_friends(int index, ::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(int index, ::google::protobuf::int32 value)
+Person::set_has_age	Person.pb.h	/^  inline void set_has_age();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_age	Person.pb.h	/^inline void Person::set_has_age() {$/;"	f	class:Person	signature:()
+Person::set_has_haschild	Person.pb.h	/^  inline void set_has_haschild();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_haschild	Person.pb.h	/^inline void Person::set_has_haschild() {$/;"	f	class:Person	signature:()
+Person::set_has_i32	Person.pb.h	/^  inline void set_has_i32();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_i32	Person.pb.h	/^inline void Person::set_has_i32() {$/;"	f	class:Person	signature:()
+Person::set_has_i64	Person.pb.h	/^  inline void set_has_i64();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_i64	Person.pb.h	/^inline void Person::set_has_i64() {$/;"	f	class:Person	signature:()
+Person::set_has_id	Person.pb.h	/^  inline void set_has_id();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_id	Person.pb.h	/^inline void Person::set_has_id() {$/;"	f	class:Person	signature:()
+Person::set_has_ii	Person.pb.h	/^  inline void set_has_ii();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_ii	Person.pb.h	/^inline void Person::set_has_ii() {$/;"	f	class:Person	signature:()
+Person::set_has_ii32	Person.pb.h	/^  inline void set_has_ii32();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_ii32	Person.pb.h	/^inline void Person::set_has_ii32() {$/;"	f	class:Person	signature:()
+Person::set_has_ii64	Person.pb.h	/^  inline void set_has_ii64();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_ii64	Person.pb.h	/^inline void Person::set_has_ii64() {$/;"	f	class:Person	signature:()
+Person::set_has_name	Person.pb.h	/^  inline void set_has_name();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_name	Person.pb.h	/^inline void Person::set_has_name() {$/;"	f	class:Person	signature:()
+Person::set_has_one	Person.pb.h	/^  inline void set_has_one();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_one	Person.pb.h	/^inline void Person::set_has_one() {$/;"	f	class:Person	signature:()
+Person::set_has_salary	Person.pb.h	/^  inline void set_has_salary();$/;"	p	class:Person	access:private	signature:()
+Person::set_has_salary	Person.pb.h	/^inline void Person::set_has_salary() {$/;"	f	class:Person	signature:()
+Person::set_haschild	Person.pb.h	/^  inline void set_haschild(bool value);$/;"	p	class:Person	access:public	signature:(bool value)
+Person::set_haschild	Person.pb.h	/^inline void Person::set_haschild(bool value) {$/;"	f	class:Person	signature:(bool value)
+Person::set_i32	Person.pb.h	/^  inline void set_i32(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+Person::set_i32	Person.pb.h	/^inline void Person::set_i32(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+Person::set_i64	Person.pb.h	/^  inline void set_i64(::google::protobuf::int64 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int64 value)
+Person::set_i64	Person.pb.h	/^inline void Person::set_i64(::google::protobuf::int64 value) {$/;"	f	class:Person	signature:(::google::protobuf::int64 value)
+Person::set_id	Person.pb.h	/^  inline void set_id(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+Person::set_id	Person.pb.h	/^inline void Person::set_id(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+Person::set_ii	Person.pb.h	/^  inline void set_ii(::Person_MO value);$/;"	p	class:Person	access:public	signature:(::Person_MO value)
+Person::set_ii	Person.pb.h	/^inline void Person::set_ii(::Person_MO value) {$/;"	f	class:Person	signature:(::Person_MO value)
+Person::set_ii32	Person.pb.h	/^  inline void set_ii32(::google::protobuf::uint32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint32 value)
+Person::set_ii32	Person.pb.h	/^inline void Person::set_ii32(::google::protobuf::uint32 value) {$/;"	f	class:Person	signature:(::google::protobuf::uint32 value)
+Person::set_ii64	Person.pb.h	/^  inline void set_ii64(::google::protobuf::uint64 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint64 value)
+Person::set_ii64	Person.pb.h	/^inline void Person::set_ii64(::google::protobuf::uint64 value) {$/;"	f	class:Person	signature:(::google::protobuf::uint64 value)
+Person::set_name	Person.pb.h	/^  inline void set_name(const ::std::string& value);$/;"	p	class:Person	access:public	signature:(const ::std::string& value)
+Person::set_name	Person.pb.h	/^  inline void set_name(const char* value);$/;"	p	class:Person	access:public	signature:(const char* value)
+Person::set_name	Person.pb.h	/^  inline void set_name(const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(const char* value, size_t size)
+Person::set_name	Person.pb.h	/^inline void Person::set_name(const ::std::string& value) {$/;"	f	class:Person	signature:(const ::std::string& value)
+Person::set_name	Person.pb.h	/^inline void Person::set_name(const char* value) {$/;"	f	class:Person	signature:(const char* value)
+Person::set_name	Person.pb.h	/^inline void Person::set_name(const char* value, size_t size) {$/;"	f	class:Person	signature:(const char* value, size_t size)
+Person::set_salary	Person.pb.h	/^  inline void set_salary(float value);$/;"	p	class:Person	access:public	signature:(float value)
+Person::set_salary	Person.pb.h	/^inline void Person::set_salary(float value) {$/;"	f	class:Person	signature:(float value)
+Person::unknown_fields	Person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:Person	access:public	signature:() const
+Person::~Person	Person.pb.cc	/^Person::~Person() {$/;"	f	class:Person	signature:()
+Person::~Person	Person.pb.h	/^  virtual ~Person();$/;"	p	class:Person	access:public	signature:()
+Person_MO	Person.pb.h	/^enum Person_MO {$/;"	g
+Person_MO_FAIL	Person.pb.h	/^  Person_MO_FAIL = 1$/;"	e	enum:Person_MO
+Person_MO_IsValid	Person.pb.cc	/^bool Person_MO_IsValid(int value) {$/;"	f	signature:(int value)
+Person_MO_IsValid	Person.pb.h	/^bool Person_MO_IsValid(int value);$/;"	p	signature:(int value)
+Person_MO_MO_ARRAYSIZE	Person.pb.h	/^const int Person_MO_MO_ARRAYSIZE = Person_MO_MO_MAX + 1;$/;"	v
+Person_MO_MO_MAX	Person.pb.h	/^const Person_MO Person_MO_MO_MAX = Person_MO_FAIL;$/;"	v
+Person_MO_MO_MIN	Person.pb.h	/^const Person_MO Person_MO_MO_MIN = Person_MO_OK;$/;"	v
+Person_MO_Name	Person.pb.h	/^inline const ::std::string& Person_MO_Name(Person_MO value) {$/;"	f	signature:(Person_MO value)
+Person_MO_OK	Person.pb.h	/^  Person_MO_OK = 0,$/;"	e	enum:Person_MO
+Person_MO_Parse	Person.pb.h	/^inline bool Person_MO_Parse($/;"	f	signature:( const ::std::string& name, Person_MO* value)
+Person_MO_descriptor	Person.pb.cc	/^const ::google::protobuf::EnumDescriptor* Person_MO_descriptor() {$/;"	f	signature:()
+Person_MO_descriptor	Person.pb.h	/^const ::google::protobuf::EnumDescriptor* Person_MO_descriptor();$/;"	p	signature:()
+Person_MO_descriptor_	Person.pb.cc	/^const ::google::protobuf::EnumDescriptor* Person_MO_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+Person_descriptor_	Person.pb.cc	/^const ::google::protobuf::Descriptor* Person_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+Person_reflection_	Person.pb.cc	/^  Person_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+SerializeWithCachedSizes	Person.pb.cc	/^void Address::SerializeWithCachedSizes($/;"	f	class:Address	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+SerializeWithCachedSizes	Person.pb.cc	/^void Person::SerializeWithCachedSizes($/;"	f	class:Person	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+SerializeWithCachedSizes	Person.pb.h	/^  void SerializeWithCachedSizes($/;"	p	class:Address	access:public	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+SerializeWithCachedSizes	Person.pb.h	/^  void SerializeWithCachedSizes($/;"	p	class:Person	access:public	signature:( ::google::protobuf::io::CodedOutputStream* output) const
+SerializeWithCachedSizesToArray	Person.pb.cc	/^::google::protobuf::uint8* Address::SerializeWithCachedSizesToArray($/;"	f	class:Address	signature:( ::google::protobuf::uint8* target) const
+SerializeWithCachedSizesToArray	Person.pb.cc	/^::google::protobuf::uint8* Person::SerializeWithCachedSizesToArray($/;"	f	class:Person	signature:( ::google::protobuf::uint8* target) const
+SerializeWithCachedSizesToArray	Person.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;$/;"	p	class:Address	access:public	signature:(::google::protobuf::uint8* output) const
+SerializeWithCachedSizesToArray	Person.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const;$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint8* output) const
+SetCachedSize	Person.pb.cc	/^void Address::SetCachedSize(int size) const {$/;"	f	class:Address	signature:(int size) const
+SetCachedSize	Person.pb.cc	/^void Person::SetCachedSize(int size) const {$/;"	f	class:Person	signature:(int size) const
+SetCachedSize	Person.pb.h	/^  void SetCachedSize(int size) const;$/;"	p	class:Address	access:private	signature:(int size) const
+SetCachedSize	Person.pb.h	/^  void SetCachedSize(int size) const;$/;"	p	class:Person	access:private	signature:(int size) const
+SharedCtor	Person.pb.cc	/^void Address::SharedCtor() {$/;"	f	class:Address	signature:()
+SharedCtor	Person.pb.cc	/^void Person::SharedCtor() {$/;"	f	class:Person	signature:()
+SharedCtor	Person.pb.h	/^  void SharedCtor();$/;"	p	class:Address	access:private	signature:()
+SharedCtor	Person.pb.h	/^  void SharedCtor();$/;"	p	class:Person	access:private	signature:()
+SharedDtor	Person.pb.cc	/^void Address::SharedDtor() {$/;"	f	class:Address	signature:()
+SharedDtor	Person.pb.cc	/^void Person::SharedDtor() {$/;"	f	class:Person	signature:()
+SharedDtor	Person.pb.h	/^  void SharedDtor();$/;"	p	class:Address	access:private	signature:()
+SharedDtor	Person.pb.h	/^  void SharedDtor();$/;"	p	class:Person	access:private	signature:()
+StaticDescriptorInitializer_Person_2eproto	Person.pb.cc	/^  StaticDescriptorInitializer_Person_2eproto() {$/;"	f	struct:StaticDescriptorInitializer_Person_2eproto	access:public	signature:()
+StaticDescriptorInitializer_Person_2eproto	Person.pb.cc	/^struct StaticDescriptorInitializer_Person_2eproto {$/;"	s	file:
+StaticDescriptorInitializer_Person_2eproto::StaticDescriptorInitializer_Person_2eproto	Person.pb.cc	/^  StaticDescriptorInitializer_Person_2eproto() {$/;"	f	struct:StaticDescriptorInitializer_Person_2eproto	access:public	signature:()
+Swap	Person.pb.cc	/^void Address::Swap(Address* other) {$/;"	f	class:Address	signature:(Address* other)
+Swap	Person.pb.cc	/^void Person::Swap(Person* other) {$/;"	f	class:Person	signature:(Person* other)
+Swap	Person.pb.h	/^  void Swap(Address* other);$/;"	p	class:Address	access:public	signature:(Address* other)
+Swap	Person.pb.h	/^  void Swap(Person* other);$/;"	p	class:Person	access:public	signature:(Person* other)
+_PERSON_H	persion.h	2;"	d
+__anon1::Address_descriptor_	Person.pb.cc	/^const ::google::protobuf::Descriptor* Address_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+__anon1::Address_reflection_	Person.pb.cc	/^  Address_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+__anon1::Person_MO_descriptor_	Person.pb.cc	/^const ::google::protobuf::EnumDescriptor* Person_MO_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+__anon1::Person_descriptor_	Person.pb.cc	/^const ::google::protobuf::Descriptor* Person_descriptor_ = NULL;$/;"	m	namespace:__anon1	file:
+__anon1::Person_reflection_	Person.pb.cc	/^  Person_reflection_ = NULL;$/;"	m	namespace:__anon1	file:
+__anon2::GOOGLE_PROTOBUF_DECLARE_ONCE	Person.pb.cc	/^GOOGLE_PROTOBUF_DECLARE_ONCE(protobuf_AssignDescriptors_once_);$/;"	p	namespace:__anon2	file:	signature:(protobuf_AssignDescriptors_once_)
+__anon2::protobuf_AssignDescriptorsOnce	Person.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:__anon2	signature:()
+__anon2::protobuf_RegisterTypes	Person.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:__anon2	signature:(const ::std::string&)
+_cached_size_	Person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:Address	access:private
+_cached_size_	Person.pb.h	/^  mutable int _cached_size_;$/;"	m	class:Person	access:private
+_has_bits_	Person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[(17 + 31) \/ 32];$/;"	m	class:Person	access:private
+_has_bits_	Person.pb.h	/^  ::google::protobuf::uint32 _has_bits_[(2 + 31) \/ 32];$/;"	m	class:Address	access:private
+_unknown_fields_	Person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:Address	access:private
+_unknown_fields_	Person.pb.h	/^  ::google::protobuf::UnknownFieldSet _unknown_fields_;$/;"	m	class:Person	access:private
+add_address	Person.pb.h	/^  inline ::Address* add_address();$/;"	p	class:Person	access:public	signature:()
+add_address	Person.pb.h	/^inline ::Address* Person::add_address() {$/;"	f	class:Person	signature:()
+add_adouble	Person.pb.h	/^  inline void add_adouble(double value);$/;"	p	class:Person	access:public	signature:(double value)
+add_adouble	Person.pb.h	/^inline void Person::add_adouble(double value) {$/;"	f	class:Person	signature:(double value)
+add_afloat	Person.pb.h	/^  inline void add_afloat(float value);$/;"	p	class:Person	access:public	signature:(float value)
+add_afloat	Person.pb.h	/^inline void Person::add_afloat(float value) {$/;"	f	class:Person	signature:(float value)
+add_aint	Person.pb.h	/^  inline void add_aint(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+add_aint	Person.pb.h	/^inline void Person::add_aint(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+add_astring	Person.pb.h	/^  inline ::std::string* add_astring();$/;"	p	class:Person	access:public	signature:()
+add_astring	Person.pb.h	/^  inline void add_astring(const ::std::string& value);$/;"	p	class:Person	access:public	signature:(const ::std::string& value)
+add_astring	Person.pb.h	/^  inline void add_astring(const char* value);$/;"	p	class:Person	access:public	signature:(const char* value)
+add_astring	Person.pb.h	/^  inline void add_astring(const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(const char* value, size_t size)
+add_astring	Person.pb.h	/^inline ::std::string* Person::add_astring() {$/;"	f	class:Person	signature:()
+add_astring	Person.pb.h	/^inline void Person::add_astring(const ::std::string& value) {$/;"	f	class:Person	signature:(const ::std::string& value)
+add_astring	Person.pb.h	/^inline void Person::add_astring(const char* value) {$/;"	f	class:Person	signature:(const char* value)
+add_astring	Person.pb.h	/^inline void Person::add_astring(const char* value, size_t size) {$/;"	f	class:Person	signature:(const char* value, size_t size)
+add_friends	Person.pb.h	/^  inline void add_friends(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+add_friends	Person.pb.h	/^inline void Person::add_friends(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+address	Person.pb.h	/^      address() const;$/;"	p	class:Person	access:public	signature:() const
+address	Person.pb.h	/^  inline const ::Address& address(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+address	Person.pb.h	/^Person::address() const {$/;"	f	class:Person	signature:() const
+address	Person.pb.h	/^inline const ::Address& Person::address(int index) const {$/;"	f	class:Person	signature:(int index) const
+address_	Person.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::Address > address_;$/;"	m	class:Person	access:private
+address_size	Person.pb.h	/^  inline int address_size() const;$/;"	p	class:Person	access:public	signature:() const
+address_size	Person.pb.h	/^inline int Person::address_size() const {$/;"	f	class:Person	signature:() const
+adouble	Person.pb.h	/^      adouble() const;$/;"	p	class:Person	access:public	signature:() const
+adouble	Person.pb.h	/^  inline double adouble(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+adouble	Person.pb.h	/^Person::adouble() const {$/;"	f	class:Person	signature:() const
+adouble	Person.pb.h	/^inline double Person::adouble(int index) const {$/;"	f	class:Person	signature:(int index) const
+adouble_	Person.pb.h	/^  ::google::protobuf::RepeatedField< double > adouble_;$/;"	m	class:Person	access:private
+adouble_size	Person.pb.h	/^  inline int adouble_size() const;$/;"	p	class:Person	access:public	signature:() const
+adouble_size	Person.pb.h	/^inline int Person::adouble_size() const {$/;"	f	class:Person	signature:() const
+afloat	Person.pb.h	/^      afloat() const;$/;"	p	class:Person	access:public	signature:() const
+afloat	Person.pb.h	/^  inline float afloat(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+afloat	Person.pb.h	/^Person::afloat() const {$/;"	f	class:Person	signature:() const
+afloat	Person.pb.h	/^inline float Person::afloat(int index) const {$/;"	f	class:Person	signature:(int index) const
+afloat_	Person.pb.h	/^  ::google::protobuf::RepeatedField< float > afloat_;$/;"	m	class:Person	access:private
+afloat_size	Person.pb.h	/^  inline int afloat_size() const;$/;"	p	class:Person	access:public	signature:() const
+afloat_size	Person.pb.h	/^inline int Person::afloat_size() const {$/;"	f	class:Person	signature:() const
+age	Person.pb.h	/^  inline double age() const;$/;"	p	class:Person	access:public	signature:() const
+age	Person.pb.h	/^inline double Person::age() const {$/;"	f	class:Person	signature:() const
+age_	Person.pb.h	/^  double age_;$/;"	m	class:Person	access:private
+aint	Person.pb.h	/^      aint() const;$/;"	p	class:Person	access:public	signature:() const
+aint	Person.pb.h	/^  inline ::google::protobuf::int32 aint(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+aint	Person.pb.h	/^Person::aint() const {$/;"	f	class:Person	signature:() const
+aint	Person.pb.h	/^inline ::google::protobuf::int32 Person::aint(int index) const {$/;"	f	class:Person	signature:(int index) const
+aint_	Person.pb.h	/^  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > aint_;$/;"	m	class:Person	access:private
+aint_size	Person.pb.h	/^  inline int aint_size() const;$/;"	p	class:Person	access:public	signature:() const
+aint_size	Person.pb.h	/^inline int Person::aint_size() const {$/;"	f	class:Person	signature:() const
+astring	Person.pb.h	/^  inline const ::google::protobuf::RepeatedPtrField< ::std::string>& astring() const;$/;"	p	class:Person	access:public	signature:() const
+astring	Person.pb.h	/^  inline const ::std::string& astring(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+astring	Person.pb.h	/^Person::astring() const {$/;"	f	class:Person	signature:() const
+astring	Person.pb.h	/^inline const ::std::string& Person::astring(int index) const {$/;"	f	class:Person	signature:(int index) const
+astring_	Person.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::std::string> astring_;$/;"	m	class:Person	access:private
+astring_size	Person.pb.h	/^  inline int astring_size() const;$/;"	p	class:Person	access:public	signature:() const
+astring_size	Person.pb.h	/^inline int Person::astring_size() const {$/;"	f	class:Person	signature:() const
+clear_address	Person.pb.h	/^  inline void clear_address();$/;"	p	class:Person	access:public	signature:()
+clear_address	Person.pb.h	/^inline void Person::clear_address() {$/;"	f	class:Person	signature:()
+clear_adouble	Person.pb.h	/^  inline void clear_adouble();$/;"	p	class:Person	access:public	signature:()
+clear_adouble	Person.pb.h	/^inline void Person::clear_adouble() {$/;"	f	class:Person	signature:()
+clear_afloat	Person.pb.h	/^  inline void clear_afloat();$/;"	p	class:Person	access:public	signature:()
+clear_afloat	Person.pb.h	/^inline void Person::clear_afloat() {$/;"	f	class:Person	signature:()
+clear_age	Person.pb.h	/^  inline void clear_age();$/;"	p	class:Person	access:public	signature:()
+clear_age	Person.pb.h	/^inline void Person::clear_age() {$/;"	f	class:Person	signature:()
+clear_aint	Person.pb.h	/^  inline void clear_aint();$/;"	p	class:Person	access:public	signature:()
+clear_aint	Person.pb.h	/^inline void Person::clear_aint() {$/;"	f	class:Person	signature:()
+clear_astring	Person.pb.h	/^  inline void clear_astring();$/;"	p	class:Person	access:public	signature:()
+clear_astring	Person.pb.h	/^inline void Person::clear_astring() {$/;"	f	class:Person	signature:()
+clear_friends	Person.pb.h	/^  inline void clear_friends();$/;"	p	class:Person	access:public	signature:()
+clear_friends	Person.pb.h	/^inline void Person::clear_friends() {$/;"	f	class:Person	signature:()
+clear_has_age	Person.pb.h	/^  inline void clear_has_age();$/;"	p	class:Person	access:private	signature:()
+clear_has_age	Person.pb.h	/^inline void Person::clear_has_age() {$/;"	f	class:Person	signature:()
+clear_has_haschild	Person.pb.h	/^  inline void clear_has_haschild();$/;"	p	class:Person	access:private	signature:()
+clear_has_haschild	Person.pb.h	/^inline void Person::clear_has_haschild() {$/;"	f	class:Person	signature:()
+clear_has_i32	Person.pb.h	/^  inline void clear_has_i32();$/;"	p	class:Person	access:private	signature:()
+clear_has_i32	Person.pb.h	/^inline void Person::clear_has_i32() {$/;"	f	class:Person	signature:()
+clear_has_i64	Person.pb.h	/^  inline void clear_has_i64();$/;"	p	class:Person	access:private	signature:()
+clear_has_i64	Person.pb.h	/^inline void Person::clear_has_i64() {$/;"	f	class:Person	signature:()
+clear_has_id	Person.pb.h	/^  inline void clear_has_id();$/;"	p	class:Person	access:private	signature:()
+clear_has_id	Person.pb.h	/^inline void Person::clear_has_id() {$/;"	f	class:Person	signature:()
+clear_has_ii	Person.pb.h	/^  inline void clear_has_ii();$/;"	p	class:Person	access:private	signature:()
+clear_has_ii	Person.pb.h	/^inline void Person::clear_has_ii() {$/;"	f	class:Person	signature:()
+clear_has_ii32	Person.pb.h	/^  inline void clear_has_ii32();$/;"	p	class:Person	access:private	signature:()
+clear_has_ii32	Person.pb.h	/^inline void Person::clear_has_ii32() {$/;"	f	class:Person	signature:()
+clear_has_ii64	Person.pb.h	/^  inline void clear_has_ii64();$/;"	p	class:Person	access:private	signature:()
+clear_has_ii64	Person.pb.h	/^inline void Person::clear_has_ii64() {$/;"	f	class:Person	signature:()
+clear_has_name	Person.pb.h	/^  inline void clear_has_name();$/;"	p	class:Person	access:private	signature:()
+clear_has_name	Person.pb.h	/^inline void Person::clear_has_name() {$/;"	f	class:Person	signature:()
+clear_has_one	Person.pb.h	/^  inline void clear_has_one();$/;"	p	class:Person	access:private	signature:()
+clear_has_one	Person.pb.h	/^inline void Person::clear_has_one() {$/;"	f	class:Person	signature:()
+clear_has_room	Person.pb.h	/^  inline void clear_has_room();$/;"	p	class:Address	access:private	signature:()
+clear_has_room	Person.pb.h	/^inline void Address::clear_has_room() {$/;"	f	class:Address	signature:()
+clear_has_salary	Person.pb.h	/^  inline void clear_has_salary();$/;"	p	class:Person	access:private	signature:()
+clear_has_salary	Person.pb.h	/^inline void Person::clear_has_salary() {$/;"	f	class:Person	signature:()
+clear_has_streat	Person.pb.h	/^  inline void clear_has_streat();$/;"	p	class:Address	access:private	signature:()
+clear_has_streat	Person.pb.h	/^inline void Address::clear_has_streat() {$/;"	f	class:Address	signature:()
+clear_haschild	Person.pb.h	/^  inline void clear_haschild();$/;"	p	class:Person	access:public	signature:()
+clear_haschild	Person.pb.h	/^inline void Person::clear_haschild() {$/;"	f	class:Person	signature:()
+clear_i32	Person.pb.h	/^  inline void clear_i32();$/;"	p	class:Person	access:public	signature:()
+clear_i32	Person.pb.h	/^inline void Person::clear_i32() {$/;"	f	class:Person	signature:()
+clear_i64	Person.pb.h	/^  inline void clear_i64();$/;"	p	class:Person	access:public	signature:()
+clear_i64	Person.pb.h	/^inline void Person::clear_i64() {$/;"	f	class:Person	signature:()
+clear_id	Person.pb.h	/^  inline void clear_id();$/;"	p	class:Person	access:public	signature:()
+clear_id	Person.pb.h	/^inline void Person::clear_id() {$/;"	f	class:Person	signature:()
+clear_ii	Person.pb.h	/^  inline void clear_ii();$/;"	p	class:Person	access:public	signature:()
+clear_ii	Person.pb.h	/^inline void Person::clear_ii() {$/;"	f	class:Person	signature:()
+clear_ii32	Person.pb.h	/^  inline void clear_ii32();$/;"	p	class:Person	access:public	signature:()
+clear_ii32	Person.pb.h	/^inline void Person::clear_ii32() {$/;"	f	class:Person	signature:()
+clear_ii64	Person.pb.h	/^  inline void clear_ii64();$/;"	p	class:Person	access:public	signature:()
+clear_ii64	Person.pb.h	/^inline void Person::clear_ii64() {$/;"	f	class:Person	signature:()
+clear_name	Person.pb.h	/^  inline void clear_name();$/;"	p	class:Person	access:public	signature:()
+clear_name	Person.pb.h	/^inline void Person::clear_name() {$/;"	f	class:Person	signature:()
+clear_one	Person.pb.h	/^  inline void clear_one();$/;"	p	class:Person	access:public	signature:()
+clear_one	Person.pb.h	/^inline void Person::clear_one() {$/;"	f	class:Person	signature:()
+clear_room	Person.pb.h	/^  inline void clear_room();$/;"	p	class:Address	access:public	signature:()
+clear_room	Person.pb.h	/^inline void Address::clear_room() {$/;"	f	class:Address	signature:()
+clear_salary	Person.pb.h	/^  inline void clear_salary();$/;"	p	class:Person	access:public	signature:()
+clear_salary	Person.pb.h	/^inline void Person::clear_salary() {$/;"	f	class:Person	signature:()
+clear_streat	Person.pb.h	/^  inline void clear_streat();$/;"	p	class:Address	access:public	signature:()
+clear_streat	Person.pb.h	/^inline void Address::clear_streat() {$/;"	f	class:Address	signature:()
+default_instance	Person.pb.cc	/^const Address& Address::default_instance() {$/;"	f	class:Address	signature:()
+default_instance	Person.pb.cc	/^const Person& Person::default_instance() {$/;"	f	class:Person	signature:()
+default_instance	Person.pb.h	/^  static const Address& default_instance();$/;"	p	class:Address	access:public	signature:()
+default_instance	Person.pb.h	/^  static const Person& default_instance();$/;"	p	class:Person	access:public	signature:()
+default_instance_	Person.pb.cc	/^Address* Address::default_instance_ = NULL;$/;"	m	class:Address	file:
+default_instance_	Person.pb.cc	/^Person* Person::default_instance_ = NULL;$/;"	m	class:Person	file:
+default_instance_	Person.pb.h	/^  static Address* default_instance_;$/;"	m	class:Address	access:private
+default_instance_	Person.pb.h	/^  static Person* default_instance_;$/;"	m	class:Person	access:private
+descriptor	Person.pb.cc	/^const ::google::protobuf::Descriptor* Address::descriptor() {$/;"	f	class:Address	signature:()
+descriptor	Person.pb.cc	/^const ::google::protobuf::Descriptor* Person::descriptor() {$/;"	f	class:Person	signature:()
+descriptor	Person.pb.h	/^  static const ::google::protobuf::Descriptor* descriptor();$/;"	p	class:Address	access:public	signature:()
+descriptor	Person.pb.h	/^  static const ::google::protobuf::Descriptor* descriptor();$/;"	p	class:Person	access:public	signature:()
+friends	Person.pb.h	/^      friends() const;$/;"	p	class:Person	access:public	signature:() const
+friends	Person.pb.h	/^  inline ::google::protobuf::int32 friends(int index) const;$/;"	p	class:Person	access:public	signature:(int index) const
+friends	Person.pb.h	/^Person::friends() const {$/;"	f	class:Person	signature:() const
+friends	Person.pb.h	/^inline ::google::protobuf::int32 Person::friends(int index) const {$/;"	f	class:Person	signature:(int index) const
+friends_	Person.pb.h	/^  ::google::protobuf::RepeatedField< ::google::protobuf::int32 > friends_;$/;"	m	class:Person	access:private
+friends_size	Person.pb.h	/^  inline int friends_size() const;$/;"	p	class:Person	access:public	signature:() const
+friends_size	Person.pb.h	/^inline int Person::friends_size() const {$/;"	f	class:Person	signature:() const
+google	Person.pb.h	/^namespace google {$/;"	n
+google::protobuf	Person.pb.h	/^namespace protobuf {$/;"	n	namespace:google
+google::protobuf::GetEnumDescriptor	Person.pb.h	/^inline const EnumDescriptor* GetEnumDescriptor< ::Person_MO>() {$/;"	f	namespace:google::protobuf	signature:()
+has_age	Person.pb.h	/^  inline bool has_age() const;$/;"	p	class:Person	access:public	signature:() const
+has_age	Person.pb.h	/^inline bool Person::has_age() const {$/;"	f	class:Person	signature:() const
+has_haschild	Person.pb.h	/^  inline bool has_haschild() const;$/;"	p	class:Person	access:public	signature:() const
+has_haschild	Person.pb.h	/^inline bool Person::has_haschild() const {$/;"	f	class:Person	signature:() const
+has_i32	Person.pb.h	/^  inline bool has_i32() const;$/;"	p	class:Person	access:public	signature:() const
+has_i32	Person.pb.h	/^inline bool Person::has_i32() const {$/;"	f	class:Person	signature:() const
+has_i64	Person.pb.h	/^  inline bool has_i64() const;$/;"	p	class:Person	access:public	signature:() const
+has_i64	Person.pb.h	/^inline bool Person::has_i64() const {$/;"	f	class:Person	signature:() const
+has_id	Person.pb.h	/^  inline bool has_id() const;$/;"	p	class:Person	access:public	signature:() const
+has_id	Person.pb.h	/^inline bool Person::has_id() const {$/;"	f	class:Person	signature:() const
+has_ii	Person.pb.h	/^  inline bool has_ii() const;$/;"	p	class:Person	access:public	signature:() const
+has_ii	Person.pb.h	/^inline bool Person::has_ii() const {$/;"	f	class:Person	signature:() const
+has_ii32	Person.pb.h	/^  inline bool has_ii32() const;$/;"	p	class:Person	access:public	signature:() const
+has_ii32	Person.pb.h	/^inline bool Person::has_ii32() const {$/;"	f	class:Person	signature:() const
+has_ii64	Person.pb.h	/^  inline bool has_ii64() const;$/;"	p	class:Person	access:public	signature:() const
+has_ii64	Person.pb.h	/^inline bool Person::has_ii64() const {$/;"	f	class:Person	signature:() const
+has_name	Person.pb.h	/^  inline bool has_name() const;$/;"	p	class:Person	access:public	signature:() const
+has_name	Person.pb.h	/^inline bool Person::has_name() const {$/;"	f	class:Person	signature:() const
+has_one	Person.pb.h	/^  inline bool has_one() const;$/;"	p	class:Person	access:public	signature:() const
+has_one	Person.pb.h	/^inline bool Person::has_one() const {$/;"	f	class:Person	signature:() const
+has_room	Person.pb.h	/^  inline bool has_room() const;$/;"	p	class:Address	access:public	signature:() const
+has_room	Person.pb.h	/^inline bool Address::has_room() const {$/;"	f	class:Address	signature:() const
+has_salary	Person.pb.h	/^  inline bool has_salary() const;$/;"	p	class:Person	access:public	signature:() const
+has_salary	Person.pb.h	/^inline bool Person::has_salary() const {$/;"	f	class:Person	signature:() const
+has_streat	Person.pb.h	/^  inline bool has_streat() const;$/;"	p	class:Address	access:public	signature:() const
+has_streat	Person.pb.h	/^inline bool Address::has_streat() const {$/;"	f	class:Address	signature:() const
+haschild	Person.pb.h	/^  inline bool haschild() const;$/;"	p	class:Person	access:public	signature:() const
+haschild	Person.pb.h	/^inline bool Person::haschild() const {$/;"	f	class:Person	signature:() const
+haschild_	Person.pb.h	/^  bool haschild_;$/;"	m	class:Person	access:private
+i32	Person.pb.h	/^  inline ::google::protobuf::int32 i32() const;$/;"	p	class:Person	access:public	signature:() const
+i32	Person.pb.h	/^inline ::google::protobuf::int32 Person::i32() const {$/;"	f	class:Person	signature:() const
+i32_	Person.pb.h	/^  ::google::protobuf::int32 i32_;$/;"	m	class:Person	access:private
+i64	Person.pb.h	/^  inline ::google::protobuf::int64 i64() const;$/;"	p	class:Person	access:public	signature:() const
+i64	Person.pb.h	/^inline ::google::protobuf::int64 Person::i64() const {$/;"	f	class:Person	signature:() const
+i64_	Person.pb.h	/^  ::google::protobuf::int64 i64_;$/;"	m	class:Person	access:private
+id	Person.pb.h	/^  inline ::google::protobuf::int32 id() const;$/;"	p	class:Person	access:public	signature:() const
+id	Person.pb.h	/^inline ::google::protobuf::int32 Person::id() const {$/;"	f	class:Person	signature:() const
+id_	Person.pb.h	/^  ::google::protobuf::int32 id_;$/;"	m	class:Person	access:private
+ii	Person.pb.h	/^  inline ::Person_MO ii() const;$/;"	p	class:Person	access:public	signature:() const
+ii	Person.pb.h	/^inline ::Person_MO Person::ii() const {$/;"	f	class:Person	signature:() const
+ii32	Person.pb.h	/^  inline ::google::protobuf::uint32 ii32() const;$/;"	p	class:Person	access:public	signature:() const
+ii32	Person.pb.h	/^inline ::google::protobuf::uint32 Person::ii32() const {$/;"	f	class:Person	signature:() const
+ii32_	Person.pb.h	/^  ::google::protobuf::uint32 ii32_;$/;"	m	class:Person	access:private
+ii64	Person.pb.h	/^  inline ::google::protobuf::uint64 ii64() const;$/;"	p	class:Person	access:public	signature:() const
+ii64	Person.pb.h	/^inline ::google::protobuf::uint64 Person::ii64() const {$/;"	f	class:Person	signature:() const
+ii64_	Person.pb.h	/^  ::google::protobuf::uint64 ii64_;$/;"	m	class:Person	access:private
+ii_	Person.pb.h	/^  int ii_;$/;"	m	class:Person	access:private
+kADoubleFieldNumber	Person.pb.cc	/^const int Person::kADoubleFieldNumber;$/;"	m	class:Person	file:
+kADoubleFieldNumber	Person.pb.h	/^  static const int kADoubleFieldNumber = 20;$/;"	m	class:Person	access:public
+kAFloatFieldNumber	Person.pb.cc	/^const int Person::kAFloatFieldNumber;$/;"	m	class:Person	file:
+kAFloatFieldNumber	Person.pb.h	/^  static const int kAFloatFieldNumber = 19;$/;"	m	class:Person	access:public
+kAIntFieldNumber	Person.pb.cc	/^const int Person::kAIntFieldNumber;$/;"	m	class:Person	file:
+kAIntFieldNumber	Person.pb.h	/^  static const int kAIntFieldNumber = 18;$/;"	m	class:Person	access:public
+kAStringFieldNumber	Person.pb.cc	/^const int Person::kAStringFieldNumber;$/;"	m	class:Person	file:
+kAStringFieldNumber	Person.pb.h	/^  static const int kAStringFieldNumber = 21;$/;"	m	class:Person	access:public
+kAddressFieldNumber	Person.pb.cc	/^const int Person::kAddressFieldNumber;$/;"	m	class:Person	file:
+kAddressFieldNumber	Person.pb.h	/^  static const int kAddressFieldNumber = 15;$/;"	m	class:Person	access:public
+kAgeFieldNumber	Person.pb.cc	/^const int Person::kAgeFieldNumber;$/;"	m	class:Person	file:
+kAgeFieldNumber	Person.pb.h	/^  static const int kAgeFieldNumber = 4;$/;"	m	class:Person	access:public
+kFriendsFieldNumber	Person.pb.cc	/^const int Person::kFriendsFieldNumber;$/;"	m	class:Person	file:
+kFriendsFieldNumber	Person.pb.h	/^  static const int kFriendsFieldNumber = 3;$/;"	m	class:Person	access:public
+kHaschildFieldNumber	Person.pb.cc	/^const int Person::kHaschildFieldNumber;$/;"	m	class:Person	file:
+kHaschildFieldNumber	Person.pb.h	/^  static const int kHaschildFieldNumber = 6;$/;"	m	class:Person	access:public
+kI32FieldNumber	Person.pb.cc	/^const int Person::kI32FieldNumber;$/;"	m	class:Person	file:
+kI32FieldNumber	Person.pb.h	/^  static const int kI32FieldNumber = 13;$/;"	m	class:Person	access:public
+kI64FieldNumber	Person.pb.cc	/^const int Person::kI64FieldNumber;$/;"	m	class:Person	file:
+kI64FieldNumber	Person.pb.h	/^  static const int kI64FieldNumber = 14;$/;"	m	class:Person	access:public
+kIdFieldNumber	Person.pb.cc	/^const int Person::kIdFieldNumber;$/;"	m	class:Person	file:
+kIdFieldNumber	Person.pb.h	/^  static const int kIdFieldNumber = 1;$/;"	m	class:Person	access:public
+kIi32FieldNumber	Person.pb.cc	/^const int Person::kIi32FieldNumber;$/;"	m	class:Person	file:
+kIi32FieldNumber	Person.pb.h	/^  static const int kIi32FieldNumber = 9;$/;"	m	class:Person	access:public
+kIi64FieldNumber	Person.pb.cc	/^const int Person::kIi64FieldNumber;$/;"	m	class:Person	file:
+kIi64FieldNumber	Person.pb.h	/^  static const int kIi64FieldNumber = 10;$/;"	m	class:Person	access:public
+kIiFieldNumber	Person.pb.cc	/^const int Person::kIiFieldNumber;$/;"	m	class:Person	file:
+kIiFieldNumber	Person.pb.h	/^  static const int kIiFieldNumber = 16;$/;"	m	class:Person	access:public
+kNameFieldNumber	Person.pb.cc	/^const int Person::kNameFieldNumber;$/;"	m	class:Person	file:
+kNameFieldNumber	Person.pb.h	/^  static const int kNameFieldNumber = 2;$/;"	m	class:Person	access:public
+kOneFieldNumber	Person.pb.cc	/^const int Person::kOneFieldNumber;$/;"	m	class:Person	file:
+kOneFieldNumber	Person.pb.h	/^  static const int kOneFieldNumber = 17;$/;"	m	class:Person	access:public
+kRoomFieldNumber	Person.pb.cc	/^const int Address::kRoomFieldNumber;$/;"	m	class:Address	file:
+kRoomFieldNumber	Person.pb.h	/^  static const int kRoomFieldNumber = 2;$/;"	m	class:Address	access:public
+kSalaryFieldNumber	Person.pb.cc	/^const int Person::kSalaryFieldNumber;$/;"	m	class:Person	file:
+kSalaryFieldNumber	Person.pb.h	/^  static const int kSalaryFieldNumber = 5;$/;"	m	class:Person	access:public
+kStreatFieldNumber	Person.pb.cc	/^const int Address::kStreatFieldNumber;$/;"	m	class:Address	file:
+kStreatFieldNumber	Person.pb.h	/^  static const int kStreatFieldNumber = 1;$/;"	m	class:Address	access:public
+mFriends	persion.h	/^    vector<int> mFriends;$/;"	m	class:Person	access:private
+mId	persion.h	/^    int mId;$/;"	m	class:Person	access:private
+mName	persion.h	/^    string mName;$/;"	m	class:Person	access:private
+main	main.cpp	/^void main(int argc,char** argv)$/;"	f	signature:(int argc,char** argv)
+main	pro.cpp	/^int main(int argc,char** argv)$/;"	f	signature:(int argc,char** argv)
+mutable_address	Person.pb.h	/^      mutable_address();$/;"	p	class:Person	access:public	signature:()
+mutable_address	Person.pb.h	/^  inline ::Address* mutable_address(int index);$/;"	p	class:Person	access:public	signature:(int index)
+mutable_address	Person.pb.h	/^Person::mutable_address() {$/;"	f	class:Person	signature:()
+mutable_address	Person.pb.h	/^inline ::Address* Person::mutable_address(int index) {$/;"	f	class:Person	signature:(int index)
+mutable_adouble	Person.pb.h	/^      mutable_adouble();$/;"	p	class:Person	access:public	signature:()
+mutable_adouble	Person.pb.h	/^Person::mutable_adouble() {$/;"	f	class:Person	signature:()
+mutable_afloat	Person.pb.h	/^      mutable_afloat();$/;"	p	class:Person	access:public	signature:()
+mutable_afloat	Person.pb.h	/^Person::mutable_afloat() {$/;"	f	class:Person	signature:()
+mutable_aint	Person.pb.h	/^      mutable_aint();$/;"	p	class:Person	access:public	signature:()
+mutable_aint	Person.pb.h	/^Person::mutable_aint() {$/;"	f	class:Person	signature:()
+mutable_astring	Person.pb.h	/^  inline ::google::protobuf::RepeatedPtrField< ::std::string>* mutable_astring();$/;"	p	class:Person	access:public	signature:()
+mutable_astring	Person.pb.h	/^  inline ::std::string* mutable_astring(int index);$/;"	p	class:Person	access:public	signature:(int index)
+mutable_astring	Person.pb.h	/^Person::mutable_astring() {$/;"	f	class:Person	signature:()
+mutable_astring	Person.pb.h	/^inline ::std::string* Person::mutable_astring(int index) {$/;"	f	class:Person	signature:(int index)
+mutable_friends	Person.pb.h	/^      mutable_friends();$/;"	p	class:Person	access:public	signature:()
+mutable_friends	Person.pb.h	/^Person::mutable_friends() {$/;"	f	class:Person	signature:()
+mutable_name	Person.pb.h	/^  inline ::std::string* mutable_name();$/;"	p	class:Person	access:public	signature:()
+mutable_name	Person.pb.h	/^inline ::std::string* Person::mutable_name() {$/;"	f	class:Person	signature:()
+mutable_one	Person.pb.h	/^  inline ::Address* mutable_one();$/;"	p	class:Person	access:public	signature:()
+mutable_one	Person.pb.h	/^inline ::Address* Person::mutable_one() {$/;"	f	class:Person	signature:()
+mutable_room	Person.pb.h	/^  inline ::std::string* mutable_room();$/;"	p	class:Address	access:public	signature:()
+mutable_room	Person.pb.h	/^inline ::std::string* Address::mutable_room() {$/;"	f	class:Address	signature:()
+mutable_streat	Person.pb.h	/^  inline ::std::string* mutable_streat();$/;"	p	class:Address	access:public	signature:()
+mutable_streat	Person.pb.h	/^inline ::std::string* Address::mutable_streat() {$/;"	f	class:Address	signature:()
+mutable_unknown_fields	Person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:Address	access:public	signature:()
+mutable_unknown_fields	Person.pb.h	/^  inline ::google::protobuf::UnknownFieldSet* mutable_unknown_fields() {$/;"	f	class:Person	access:public	signature:()
+name	Person.pb.h	/^  inline const ::std::string& name() const;$/;"	p	class:Person	access:public	signature:() const
+name	Person.pb.h	/^inline const ::std::string& Person::name() const {$/;"	f	class:Person	signature:() const
+name_	Person.pb.h	/^  ::std::string* name_;$/;"	m	class:Person	access:private
+one	Person.pb.h	/^  inline const ::Address& one() const;$/;"	p	class:Person	access:public	signature:() const
+one	Person.pb.h	/^inline const ::Address& Person::one() const {$/;"	f	class:Person	signature:() const
+one_	Person.pb.h	/^  ::Address* one_;$/;"	m	class:Person	access:private
+operator =	Person.pb.h	/^  inline Address& operator=(const Address& from) {$/;"	f	class:Address	access:public	signature:(const Address& from)
+operator =	Person.pb.h	/^  inline Person& operator=(const Person& from) {$/;"	f	class:Person	access:public	signature:(const Person& from)
+protobuf	Person.pb.h	/^namespace protobuf {$/;"	n	namespace:google
+protobuf_AddDesc_Person_2eproto	Person.pb.cc	/^void protobuf_AddDesc_Person_2eproto() {$/;"	f	signature:()
+protobuf_AddDesc_Person_2eproto	Person.pb.h	/^  friend void  protobuf_AddDesc_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+protobuf_AddDesc_Person_2eproto	Person.pb.h	/^  friend void  protobuf_AddDesc_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+protobuf_AddDesc_Person_2eproto	Person.pb.h	/^void  protobuf_AddDesc_Person_2eproto();$/;"	p	signature:()
+protobuf_AssignDesc_Person_2eproto	Person.pb.cc	/^void protobuf_AssignDesc_Person_2eproto() {$/;"	f	signature:()
+protobuf_AssignDesc_Person_2eproto	Person.pb.h	/^  friend void protobuf_AssignDesc_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+protobuf_AssignDesc_Person_2eproto	Person.pb.h	/^  friend void protobuf_AssignDesc_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+protobuf_AssignDesc_Person_2eproto	Person.pb.h	/^void protobuf_AssignDesc_Person_2eproto();$/;"	p	signature:()
+protobuf_AssignDescriptorsOnce	Person.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:__anon2	signature:()
+protobuf_RegisterTypes	Person.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:__anon2	signature:(const ::std::string&)
+protobuf_ShutdownFile_Person_2eproto	Person.pb.cc	/^void protobuf_ShutdownFile_Person_2eproto() {$/;"	f	signature:()
+protobuf_ShutdownFile_Person_2eproto	Person.pb.h	/^  friend void protobuf_ShutdownFile_Person_2eproto();$/;"	p	class:Address	access:friend	signature:()
+protobuf_ShutdownFile_Person_2eproto	Person.pb.h	/^  friend void protobuf_ShutdownFile_Person_2eproto();$/;"	p	class:Person	access:friend	signature:()
+protobuf_ShutdownFile_Person_2eproto	Person.pb.h	/^void protobuf_ShutdownFile_Person_2eproto();$/;"	p	signature:()
+release_name	Person.pb.h	/^  inline ::std::string* release_name();$/;"	p	class:Person	access:public	signature:()
+release_name	Person.pb.h	/^inline ::std::string* Person::release_name() {$/;"	f	class:Person	signature:()
+release_one	Person.pb.h	/^  inline ::Address* release_one();$/;"	p	class:Person	access:public	signature:()
+release_one	Person.pb.h	/^inline ::Address* Person::release_one() {$/;"	f	class:Person	signature:()
+release_room	Person.pb.h	/^  inline ::std::string* release_room();$/;"	p	class:Address	access:public	signature:()
+release_room	Person.pb.h	/^inline ::std::string* Address::release_room() {$/;"	f	class:Address	signature:()
+release_streat	Person.pb.h	/^  inline ::std::string* release_streat();$/;"	p	class:Address	access:public	signature:()
+release_streat	Person.pb.h	/^inline ::std::string* Address::release_streat() {$/;"	f	class:Address	signature:()
+room	Person.pb.h	/^  inline const ::std::string& room() const;$/;"	p	class:Address	access:public	signature:() const
+room	Person.pb.h	/^inline const ::std::string& Address::room() const {$/;"	f	class:Address	signature:() const
+room_	Person.pb.h	/^  ::std::string* room_;$/;"	m	class:Address	access:private
+salary	Person.pb.h	/^  inline float salary() const;$/;"	p	class:Person	access:public	signature:() const
+salary	Person.pb.h	/^inline float Person::salary() const {$/;"	f	class:Person	signature:() const
+salary_	Person.pb.h	/^  float salary_;$/;"	m	class:Person	access:private
+set_adouble	Person.pb.h	/^  inline void set_adouble(int index, double value);$/;"	p	class:Person	access:public	signature:(int index, double value)
+set_adouble	Person.pb.h	/^inline void Person::set_adouble(int index, double value) {$/;"	f	class:Person	signature:(int index, double value)
+set_afloat	Person.pb.h	/^  inline void set_afloat(int index, float value);$/;"	p	class:Person	access:public	signature:(int index, float value)
+set_afloat	Person.pb.h	/^inline void Person::set_afloat(int index, float value) {$/;"	f	class:Person	signature:(int index, float value)
+set_age	Person.pb.h	/^  inline void set_age(double value);$/;"	p	class:Person	access:public	signature:(double value)
+set_age	Person.pb.h	/^inline void Person::set_age(double value) {$/;"	f	class:Person	signature:(double value)
+set_aint	Person.pb.h	/^  inline void set_aint(int index, ::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(int index, ::google::protobuf::int32 value)
+set_aint	Person.pb.h	/^inline void Person::set_aint(int index, ::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(int index, ::google::protobuf::int32 value)
+set_allocated_name	Person.pb.h	/^  inline void set_allocated_name(::std::string* name);$/;"	p	class:Person	access:public	signature:(::std::string* name)
+set_allocated_name	Person.pb.h	/^inline void Person::set_allocated_name(::std::string* name) {$/;"	f	class:Person	signature:(::std::string* name)
+set_allocated_one	Person.pb.h	/^  inline void set_allocated_one(::Address* one);$/;"	p	class:Person	access:public	signature:(::Address* one)
+set_allocated_one	Person.pb.h	/^inline void Person::set_allocated_one(::Address* one) {$/;"	f	class:Person	signature:(::Address* one)
+set_allocated_room	Person.pb.h	/^  inline void set_allocated_room(::std::string* room);$/;"	p	class:Address	access:public	signature:(::std::string* room)
+set_allocated_room	Person.pb.h	/^inline void Address::set_allocated_room(::std::string* room) {$/;"	f	class:Address	signature:(::std::string* room)
+set_allocated_streat	Person.pb.h	/^  inline void set_allocated_streat(::std::string* streat);$/;"	p	class:Address	access:public	signature:(::std::string* streat)
+set_allocated_streat	Person.pb.h	/^inline void Address::set_allocated_streat(::std::string* streat) {$/;"	f	class:Address	signature:(::std::string* streat)
+set_astring	Person.pb.h	/^  inline void set_astring(int index, const ::std::string& value);$/;"	p	class:Person	access:public	signature:(int index, const ::std::string& value)
+set_astring	Person.pb.h	/^  inline void set_astring(int index, const char* value);$/;"	p	class:Person	access:public	signature:(int index, const char* value)
+set_astring	Person.pb.h	/^  inline void set_astring(int index, const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(int index, const char* value, size_t size)
+set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const ::std::string& value) {$/;"	f	class:Person	signature:(int index, const ::std::string& value)
+set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const char* value) {$/;"	f	class:Person	signature:(int index, const char* value)
+set_astring	Person.pb.h	/^inline void Person::set_astring(int index, const char* value, size_t size) {$/;"	f	class:Person	signature:(int index, const char* value, size_t size)
+set_friends	Person.pb.h	/^  inline void set_friends(int index, ::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(int index, ::google::protobuf::int32 value)
+set_friends	Person.pb.h	/^inline void Person::set_friends(int index, ::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(int index, ::google::protobuf::int32 value)
+set_has_age	Person.pb.h	/^  inline void set_has_age();$/;"	p	class:Person	access:private	signature:()
+set_has_age	Person.pb.h	/^inline void Person::set_has_age() {$/;"	f	class:Person	signature:()
+set_has_haschild	Person.pb.h	/^  inline void set_has_haschild();$/;"	p	class:Person	access:private	signature:()
+set_has_haschild	Person.pb.h	/^inline void Person::set_has_haschild() {$/;"	f	class:Person	signature:()
+set_has_i32	Person.pb.h	/^  inline void set_has_i32();$/;"	p	class:Person	access:private	signature:()
+set_has_i32	Person.pb.h	/^inline void Person::set_has_i32() {$/;"	f	class:Person	signature:()
+set_has_i64	Person.pb.h	/^  inline void set_has_i64();$/;"	p	class:Person	access:private	signature:()
+set_has_i64	Person.pb.h	/^inline void Person::set_has_i64() {$/;"	f	class:Person	signature:()
+set_has_id	Person.pb.h	/^  inline void set_has_id();$/;"	p	class:Person	access:private	signature:()
+set_has_id	Person.pb.h	/^inline void Person::set_has_id() {$/;"	f	class:Person	signature:()
+set_has_ii	Person.pb.h	/^  inline void set_has_ii();$/;"	p	class:Person	access:private	signature:()
+set_has_ii	Person.pb.h	/^inline void Person::set_has_ii() {$/;"	f	class:Person	signature:()
+set_has_ii32	Person.pb.h	/^  inline void set_has_ii32();$/;"	p	class:Person	access:private	signature:()
+set_has_ii32	Person.pb.h	/^inline void Person::set_has_ii32() {$/;"	f	class:Person	signature:()
+set_has_ii64	Person.pb.h	/^  inline void set_has_ii64();$/;"	p	class:Person	access:private	signature:()
+set_has_ii64	Person.pb.h	/^inline void Person::set_has_ii64() {$/;"	f	class:Person	signature:()
+set_has_name	Person.pb.h	/^  inline void set_has_name();$/;"	p	class:Person	access:private	signature:()
+set_has_name	Person.pb.h	/^inline void Person::set_has_name() {$/;"	f	class:Person	signature:()
+set_has_one	Person.pb.h	/^  inline void set_has_one();$/;"	p	class:Person	access:private	signature:()
+set_has_one	Person.pb.h	/^inline void Person::set_has_one() {$/;"	f	class:Person	signature:()
+set_has_room	Person.pb.h	/^  inline void set_has_room();$/;"	p	class:Address	access:private	signature:()
+set_has_room	Person.pb.h	/^inline void Address::set_has_room() {$/;"	f	class:Address	signature:()
+set_has_salary	Person.pb.h	/^  inline void set_has_salary();$/;"	p	class:Person	access:private	signature:()
+set_has_salary	Person.pb.h	/^inline void Person::set_has_salary() {$/;"	f	class:Person	signature:()
+set_has_streat	Person.pb.h	/^  inline void set_has_streat();$/;"	p	class:Address	access:private	signature:()
+set_has_streat	Person.pb.h	/^inline void Address::set_has_streat() {$/;"	f	class:Address	signature:()
+set_haschild	Person.pb.h	/^  inline void set_haschild(bool value);$/;"	p	class:Person	access:public	signature:(bool value)
+set_haschild	Person.pb.h	/^inline void Person::set_haschild(bool value) {$/;"	f	class:Person	signature:(bool value)
+set_i32	Person.pb.h	/^  inline void set_i32(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+set_i32	Person.pb.h	/^inline void Person::set_i32(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+set_i64	Person.pb.h	/^  inline void set_i64(::google::protobuf::int64 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int64 value)
+set_i64	Person.pb.h	/^inline void Person::set_i64(::google::protobuf::int64 value) {$/;"	f	class:Person	signature:(::google::protobuf::int64 value)
+set_id	Person.pb.h	/^  inline void set_id(::google::protobuf::int32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::int32 value)
+set_id	Person.pb.h	/^inline void Person::set_id(::google::protobuf::int32 value) {$/;"	f	class:Person	signature:(::google::protobuf::int32 value)
+set_ii	Person.pb.h	/^  inline void set_ii(::Person_MO value);$/;"	p	class:Person	access:public	signature:(::Person_MO value)
+set_ii	Person.pb.h	/^inline void Person::set_ii(::Person_MO value) {$/;"	f	class:Person	signature:(::Person_MO value)
+set_ii32	Person.pb.h	/^  inline void set_ii32(::google::protobuf::uint32 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint32 value)
+set_ii32	Person.pb.h	/^inline void Person::set_ii32(::google::protobuf::uint32 value) {$/;"	f	class:Person	signature:(::google::protobuf::uint32 value)
+set_ii64	Person.pb.h	/^  inline void set_ii64(::google::protobuf::uint64 value);$/;"	p	class:Person	access:public	signature:(::google::protobuf::uint64 value)
+set_ii64	Person.pb.h	/^inline void Person::set_ii64(::google::protobuf::uint64 value) {$/;"	f	class:Person	signature:(::google::protobuf::uint64 value)
+set_name	Person.pb.h	/^  inline void set_name(const ::std::string& value);$/;"	p	class:Person	access:public	signature:(const ::std::string& value)
+set_name	Person.pb.h	/^  inline void set_name(const char* value);$/;"	p	class:Person	access:public	signature:(const char* value)
+set_name	Person.pb.h	/^  inline void set_name(const char* value, size_t size);$/;"	p	class:Person	access:public	signature:(const char* value, size_t size)
+set_name	Person.pb.h	/^inline void Person::set_name(const ::std::string& value) {$/;"	f	class:Person	signature:(const ::std::string& value)
+set_name	Person.pb.h	/^inline void Person::set_name(const char* value) {$/;"	f	class:Person	signature:(const char* value)
+set_name	Person.pb.h	/^inline void Person::set_name(const char* value, size_t size) {$/;"	f	class:Person	signature:(const char* value, size_t size)
+set_room	Person.pb.h	/^  inline void set_room(const ::std::string& value);$/;"	p	class:Address	access:public	signature:(const ::std::string& value)
+set_room	Person.pb.h	/^  inline void set_room(const char* value);$/;"	p	class:Address	access:public	signature:(const char* value)
+set_room	Person.pb.h	/^  inline void set_room(const char* value, size_t size);$/;"	p	class:Address	access:public	signature:(const char* value, size_t size)
+set_room	Person.pb.h	/^inline void Address::set_room(const ::std::string& value) {$/;"	f	class:Address	signature:(const ::std::string& value)
+set_room	Person.pb.h	/^inline void Address::set_room(const char* value) {$/;"	f	class:Address	signature:(const char* value)
+set_room	Person.pb.h	/^inline void Address::set_room(const char* value, size_t size) {$/;"	f	class:Address	signature:(const char* value, size_t size)
+set_salary	Person.pb.h	/^  inline void set_salary(float value);$/;"	p	class:Person	access:public	signature:(float value)
+set_salary	Person.pb.h	/^inline void Person::set_salary(float value) {$/;"	f	class:Person	signature:(float value)
+set_streat	Person.pb.h	/^  inline void set_streat(const ::std::string& value);$/;"	p	class:Address	access:public	signature:(const ::std::string& value)
+set_streat	Person.pb.h	/^  inline void set_streat(const char* value);$/;"	p	class:Address	access:public	signature:(const char* value)
+set_streat	Person.pb.h	/^  inline void set_streat(const char* value, size_t size);$/;"	p	class:Address	access:public	signature:(const char* value, size_t size)
+set_streat	Person.pb.h	/^inline void Address::set_streat(const ::std::string& value) {$/;"	f	class:Address	signature:(const ::std::string& value)
+set_streat	Person.pb.h	/^inline void Address::set_streat(const char* value) {$/;"	f	class:Address	signature:(const char* value)
+set_streat	Person.pb.h	/^inline void Address::set_streat(const char* value, size_t size) {$/;"	f	class:Address	signature:(const char* value, size_t size)
+static_descriptor_initializer_Person_2eproto_	Person.pb.cc	/^} static_descriptor_initializer_Person_2eproto_;$/;"	v	typeref:struct:StaticDescriptorInitializer_Person_2eproto
+streat	Person.pb.h	/^  inline const ::std::string& streat() const;$/;"	p	class:Address	access:public	signature:() const
+streat	Person.pb.h	/^inline const ::std::string& Address::streat() const {$/;"	f	class:Address	signature:() const
+streat_	Person.pb.h	/^  ::std::string* streat_;$/;"	m	class:Address	access:private
+unknown_fields	Person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:Address	access:public	signature:() const
+unknown_fields	Person.pb.h	/^  inline const ::google::protobuf::UnknownFieldSet& unknown_fields() const {$/;"	f	class:Person	access:public	signature:() const
+~Address	Person.pb.cc	/^Address::~Address() {$/;"	f	class:Address	signature:()
+~Address	Person.pb.h	/^  virtual ~Address();$/;"	p	class:Address	access:public	signature:()
+~Person	Person.pb.cc	/^Person::~Person() {$/;"	f	class:Person	signature:()
+~Person	Person.pb.h	/^  virtual ~Person();$/;"	p	class:Person	access:public	signature:()

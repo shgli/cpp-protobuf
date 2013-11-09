@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/GCC_PLUGIN_INCLUDE/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/GCC_PLUGIN_INCLUDE/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/GCC_PLUGIN_INCLUDE/value=/usr/lib/gcc/x86_64-linux-gnu/4.6/plugin/include
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_INCLUDE/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_INCLUDE/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_INCLUDE/value=/usr/local/include
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_LIB/delimiter=\:
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_LIB/operation=append
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/LOCAL_LIB/value=/usr/local/lib
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/append=true
+environment/project/cdt.managedbuild.toolchain.gnu.base.997817007/appendContributed=true

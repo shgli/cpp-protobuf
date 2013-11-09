@@ -1,0 +1,34 @@
+message Address
+{
+    required string streat = 1;
+    required string room = 2;
+};
+
+message Person
+{
+    enum MO
+    {
+        OK = 0;
+        FAIL = 1;
+    };
+
+    required int32 id = 1;
+    optional float salary = 5;
+    optional double age = 4;
+    optional string name = 2;
+    repeated int32 friends = 3;
+    required bool haschild = 6;
+    required uint32 ii32 = 9;
+    required uint64 ii64 = 10;
+    required int32 i32 = 13;
+    required int64 i64 = 14;
+    required MO ii = 16;
+    optional Address One = 17;
+
+    repeated Address address = 15;
+
+    repeated int32 aInt = 18;
+    repeated float aFloat = 19;
+    repeated double aDouble = 20;
+    repeated string aString = 21;
+}
